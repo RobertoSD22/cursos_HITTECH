@@ -52,6 +52,24 @@ METODO MAIN
     - Es el bloque de codigo que contiene instrucciones que java desde un inicio va a ejecutar
     - Por donde va a iniciar a ejecutar el código
 
+JDK
+
+    - Java Development Kit  -   Kit desarrollo o herramientas para desarrollar en java
+    - DENTRO de la carpeta de instalación de java, vienen varios .exe ESAS son las herramientas, como jar.exe, javadoc.exe, java.exe, javac.exe
+    - En este capitulo (el 2) vamos a utilizar java.exe y javac.exe
+    - JAVA.exe  Sirve para ejecutar el código (osease la 3 fase de las 3 que tengo)
+    - JAVAC.exe Sirve para compilar el código (osease la 2 fase de las 3 que tengo)
+
+============= COMANDOS =============
+
+javac                               - Sirve para revisar si efectivamente tengo mi variable de entorno en el path
+javac opciones archivo.java         - Sirve para compilar el archivo y generar el .class, se le puede dar una ruta de archivos (opciones) u otras opciones que se usan para compilar!!!
+                                      FORZOSAMENTE debe tener la extensión .java!!! si no, no compila, MANDA UN ERROR:  "are only accepted if annotation processing is explicitly requested"
+java opciones archivo               - Se utiliza para compilar código fuente. Igual que javac, puede recibir opciones diferentes para su ejecución
+                                      LA DIFERENCIA es que no hay que ponerle el .class!!!! (que la shingada), si se lo pones MANDA UN ERROR!
+                                      YA TIENE QUE ESTAR COMPILADO Y CREADO EL .class                                                                                                               IMPORTANTEEEEEEEEEE
+java opciones archivo[argumentos]   - ASI se le pasan los argumentos!!!!!!!!! :O toda mi vida quise saberlo <3 (LO EJECUTE Y NO SALIO, hay que actualizar cuando lo veamos)
+
 ============= RESUMEN CLASES =============
 
 ANTES DE INICIAR
@@ -70,5 +88,8 @@ INTRODUCCIÓN A LA TECNOLOGÍA JAVA
 2   "Hello World Java"                              Creamos un archivo en el blog de notas y fue explicando que era cada cosa, por ejemplo: SENTENCIA, BLOQUE, PALABRA RESERVADA, MODIFICADOR DE ACCESO,
                                                     MÉTODO MAIN, SYSTEM.OUT
 3   "Describir e implementar el método main"        Un video un chiquito como de 3 minutos, solo explica que es main y como se nombra/firma
-
+4   "Ejecutar una aplicación Java desde línea
+    de comandos utilizando java y javac"            FASES de un aplicación (las 3 que escribi al principio), JDK, 
+                                                    JAVAC para compilar mi clase desde la consola (CON EXTENSIÓN DEL ARCHIVO), 
+                                                    JAVA para correr el programa (SIN EXTENSION DEL ARCHIVO)
 
