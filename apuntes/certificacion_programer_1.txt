@@ -1,5 +1,35 @@
+============= CONCEPTOS =============
+
+JAVA
+
+    - Nació en 1991
+    - James Goslin fue su creador
+    - Sun Microsystems es la empresa donde se creo
+    - 2010 Oracle adquiere Sun Microsystems
+    - A partir de la versión 7 en adelante el poseedor es Oracle
+
+CARACTERISTICAS
+
+    1 Orientado a objetos               Significa que puedo modelar entidades de la vida real
+    2 Distribuido                       Se puede tener en diferentes servidores, lo que hace que este en diferentes lugares, y la aplicación se vuelve ALTAMENTE ESCALABLE
+    3 Simple                            No te preocupas por la administración de memoria, la java virtual matchine es quien se encarga de liberar la memoria
+                                        Es un lenguaje tipado, reduce los valores en los tipos de datos que sean lo más sencillos posible
+    4 Multi-hilo                        Multi-tarea, ejecuta varias tareas a la vez, (puede mostrar el formulario, al mismo tiempo imprimir un reporte)
+                                        Agiliza la ejecución de aplicaciones
+    5 Independiente de la plataforma    Multiplataforma es que corre en diferentes sistemas operativos gracias a la java virtual machine
+                                        1.- Codificación (.java)
+                                        2.- Complicación (.class)
+                                        3.- Ejecución 
+    6 Seguro                            LA PRINCIPAL razón es por el .class, el bytecode, no solo porque tenga .class ya lo ejecuta, hace
+                                        diferentes validaciones antes, como que no haya desbordamiento de memoria, etc. HACE UN CHECK de validaciones
+
+JRE
+
+    - Traduce los archivos .class dependiendo del sistema operativo (ya sea para windows o para linux)
+
 ============= RESUMEN CLASES =============
 
+ANTES DE INICIAR
 1   "Acerca de Hittechs"                            Una redacción de que es y el nombre de  mi asesor "Cristina Casas" ccasas@hittechs.com.mx
 2   "¿Cómo instalar JDK?"                           No funciona ;__; vamos iniciando mal, aun que ya lo tengo (errores/1.png)
 3   "¿Cómo configurar la variable de entorno Path?" Un comando en la terminal de windows, no lo segui porque ya la tengo, uso siempre la interfaz
@@ -7,3 +37,10 @@
                                                     Lo instale sin problemas, esta muy sencillo de instalar
 5   "¿Como instalar DIA?"                           No lo instale porque es una herramienta para crear diagramas, creo que con StarUML estare bien
 6   "Crear una cuenta de GitHub"                    Tampoco funciona ;___; lo bueno que ya tenía la cuenta, porque si no... me atraso (errores/3.png)
+
+INTRODUCCIÓN A LA TECNOLOGÍA JAVA
+
+1   "Principaes características de la tecnología 
+    Java"                                           Muy largo el video 38 minutos, interesante pero largo, historia y caracteristicas de Java 
+
+
