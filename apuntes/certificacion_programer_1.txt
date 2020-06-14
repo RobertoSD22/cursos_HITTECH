@@ -1,0 +1,7 @@
+============= RESUMEN CLASES =============
+
+1   "Acerca de Hittechs"                            Una redacción de que es y el nombre de  mi asesor "Cristina Casas" ccasas@hittechs.com.mx
+2   "¿Cómo instalar JDK?"                           No funciona ;__; vamos iniciando mal, aun que ya lo tengo (errores/1.png)
+3   "¿Cómo configurar la variable de entorno Path?" Un comando en la terminal de windows, no lo segui porque ya la tengo, uso siempre la interfaz
+4   "¿Cómo instalar Netbeans 11?"                   Tampoco funciona ;___; lo haré por mi mismo porque no se si en el curo especifiquen cosas en el (errores/2.png)
+5   "¿Como instalar DIA?"                           No lo instale porque es una herramienta para crear diagramas, creo que con StarUML estare bien
