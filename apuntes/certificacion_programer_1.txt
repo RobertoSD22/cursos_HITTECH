@@ -68,6 +68,7 @@ INTRODUCCIÓN A LA TECNOLOGÍA JAVA
 1   "Principales características de la tecnología 
     Java"                                           Muy largo el video 38 minutos, interesante pero largo, historia y caracteristicas de Java
 2   "Hello World Java"                              Creamos un archivo en el blog de notas y fue explicando que era cada cosa, por ejemplo: SENTENCIA, BLOQUE, PALABRA RESERVADA, MODIFICADOR DE ACCESO,
-                                                    MÉTODO MAIN, SYSTEM.OUT.
+                                                    MÉTODO MAIN, SYSTEM.OUT
+3   "Describir e implementar el método main"        Un video un chiquito como de 3 minutos, solo explica que es main y como se nombra/firma
 
 
