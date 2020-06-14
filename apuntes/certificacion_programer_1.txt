@@ -93,3 +93,9 @@ INTRODUCCIÓN A LA TECNOLOGÍA JAVA
                                                     JAVAC para compilar mi clase desde la consola (CON EXTENSIÓN DEL ARCHIVO), 
                                                     JAVA para correr el programa (SIN EXTENSION DEL ARCHIVO)
 
+IMPLEMENTANDO CLASES EN JAVA
+
+1   "Presentación de un problema para su análisis
+    y modelado"                                     Un video corto sobre una necesidad que tiene hittechs de crear un sistema que controle cosas como:
+                                                    EMPLEADOS, DEPARTAMENTOS, GERENTES y SALARIOS (eso fue lo que ubique hasta ahora)
+
