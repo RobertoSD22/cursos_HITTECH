@@ -27,6 +27,31 @@ JRE
 
     - Traduce los archivos .class dependiendo del sistema operativo (ya sea para windows o para linux)
 
+
+PALABRAS RESERVADAS
+
+    - Son palabras propias del lenguaje de programación, que tienen un significado y un objetivo
+
+MODIFICADOR DE ACCESO
+
+    - Mide la visibilidad que tienen los elementos dentro de la aplicación java
+    - Decide quien o que ve nuestra clase, método o atributo
+    - Hay 4 tipos de modificadores de acceso: public, private, protected y package
+
+BLOQUE DE CODIGO
+
+    - Contiene varias sentencias que se van a ejecutar
+    - Utiliza {} para saber donde inicia y donde termina
+
+SENTENCIA
+
+    - Es una instrucción denotada por ;
+
+METODO MAIN
+
+    - Es el bloque de codigo que contiene instrucciones que java desde un inicio va a ejecutar
+    - Por donde va a iniciar a ejecutar el código
+
 ============= RESUMEN CLASES =============
 
 ANTES DE INICIAR
@@ -40,7 +65,9 @@ ANTES DE INICIAR
 
 INTRODUCCIÓN A LA TECNOLOGÍA JAVA
 
-1   "Principaes características de la tecnología 
-    Java"                                           Muy largo el video 38 minutos, interesante pero largo, historia y caracteristicas de Java 
+1   "Principales características de la tecnología 
+    Java"                                           Muy largo el video 38 minutos, interesante pero largo, historia y caracteristicas de Java
+2   "Hello World Java"                              Creamos un archivo en el blog de notas y fue explicando que era cada cosa, por ejemplo: SENTENCIA, BLOQUE, PALABRA RESERVADA, MODIFICADOR DE ACCESO,
+                                                    MÉTODO MAIN, SYSTEM.OUT.
 
 
