@@ -139,3 +139,5 @@ IMPLEMENTANDO CLASES EN JAVA
                                                     hicimos un ejercicio y cree un archivo donde guarde el diagrama de clases
 3   "Introducción a Java Netbeans"                  El video muestra como esta estructurado Netbeans, tambien dieron el concepto de IDE"
 4   "Introducción a Git y GitHub"                   Una explicación de Git (no habla de GitHub a pesar del titulo jaja), sobre arboles, branches y commit, interesante
+5   "Clonar el proyecto HumanResources de GitHub"   Explica como clonar un proyecto desde Netbeans PERO... necesito permisos ;____; y aun no me los dan, 
+                                                    intentare continuar con las clases siguientes para no atrasarme
