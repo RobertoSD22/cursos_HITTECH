@@ -93,6 +93,10 @@ IDE
     - Intagrated Development Enviroment  (Entorno de Desarrollo Integrado)
     - Una herramienta de software que permite a los programadores de software implemendar codigo, compilar y ejecutar
 
+GIT
+
+    - Sistema de Control de versiones
+
 ============= COMANDOS =============
 
 javac                               - Sirve para revisar si efectivamente tengo mi variable de entorno en el path
@@ -134,4 +138,4 @@ IMPLEMENTANDO CLASES EN JAVA
 2   "Introducción a UML (Diagramas de Clase)"       Conceptos de diagramas UML, TAXONOMIA, DIAGRAMA DE CLASES, Representación de modificadores de acceso en un diagrama
                                                     hicimos un ejercicio y cree un archivo donde guarde el diagrama de clases
 3   "Introducción a Java Netbeans"                  El video muestra como esta estructurado Netbeans, tambien dieron el concepto de IDE"
-
+4   "Introducción a Git y GitHub"                   Una explicación de Git (no habla de GitHub a pesar del titulo jaja), sobre arboles, branches y commit, interesante
