@@ -222,3 +222,4 @@ IMPLEMENTANDO CLASES EN JAVA
     Clase"                                          tambien dio un ejemplo que no se debe guardar en la clase
 10  "Shortcut en NetBeans"                          Concepto de CONCATENACIÓN, se implementaron los métodos de "getDetail" agregandole un monton de Systems.out
 11  "Más sobre el método main"                      Diferentes formas de escribir el método main, MUY interesante, revisarlas bien para exámen
+12  "Creación de objetos en Java"                   Explicación de la creación de un objeto a partir de una clase, como se llena el objeto (sus atributos), estuvo sencillo
