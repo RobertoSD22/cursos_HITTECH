@@ -131,6 +131,10 @@ PAQUETE
     - El nombrado de los paquetes por convencion es en minúsculas
     - Por lo general llevan el domino de la empresa (org.mx o mx.com)
 
+CONCATENACIÓN
+
+    - Unir los valores de las variables
+
 
 ============= COMANDOS =============
 
@@ -141,6 +145,19 @@ java opciones archivo               - Se utiliza para compilar código fuente. I
                                       LA DIFERENCIA es que no hay que ponerle el .class!!!! (que la shingada), si se lo pones MANDA UN ERROR!
                                       YA TIENE QUE ESTAR COMPILADO Y CREADO EL .class                                                                                                               IMPORTANTEEEEEEEEEE
 java opciones archivo[argumentos]   - ASI se le pasan los argumentos!!!!!!!!! :O toda mi vida quise saberlo <3 (LO EJECUTE Y NO SALIO, hay que actualizar cuando lo veamos)
+
+
+
+============= COMANDOS NETBEANS =============
+
+sout                                - Es para System.out.println
+wh                                  - While
+ifelse                              - Genera toda la estructura de if
+sw                                  - Switch
+Ctrl + E                            - Eliminar una linea
+TODOS los shortcuts estan en:       - Help > Keybord Shortcuts Card (En este menu das click y aparece un pdf con todos)
+Click derecho + format              - Identa el codigo!! 
+
 
 ============= RESUMEN CLASES =============
 
@@ -188,3 +205,4 @@ IMPLEMENTANDO CLASES EN JAVA
                                                     Hicimos el primer commit de los nuevos archivos (se quita el verde de los archivos en NetBeans)
 9   "Definir e implementar métodos dentro de una    CONCEPTO de Método, puede tener todos los modificadores e hizo solo un método y explico cada una de las partes
     Clase"                                          tambien dio un ejemplo que no se debe guardar en la clase
+10  "Shortcut en NetBeans"                          Concepto de CONCATENACIÓN, se implementaron los métodos de "getDetail" agregandole un monton de Systems.out
