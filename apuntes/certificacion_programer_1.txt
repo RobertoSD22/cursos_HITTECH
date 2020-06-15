@@ -83,6 +83,19 @@ CLASE
     - Se pueden declarar varias clases con el modificador de acceso defult y ninguna llamarse como el archivo                                                                                       IMPORTANTEEEEEEEEEE
     - LA BUENA PRACTICA es solo tener una clase por archivo, si no es complicada de encontrar las otras clases en caso de que las tengan
 
+ATRIBUTOS
+
+    - A diferencia de las clases, los atributos pueden tener los 4 modificadores de acceso.
+
+IDENTIFICADORES
+
+    - Son los nombres que se les dan a las clases, métodos y/o atributos
+    - 4 reglas:
+        ~ Camel case                                            (REGLA: POR CONVENCIÓN / BUENA PRACTICA)
+        ~ Deben iniciar y/o contener con letra, $ o _           (REGLA: SINTAXIS, si no, manda error de compilación)
+        ~ Deben ser lo más descriptivos posibles                (REGLA: POR CONVENCIÓN / BUENA PRACTICA)
+        ~ No se pueden nombrar utilizando una palabra reservada (REGLA: SINTAXIS, si no, manda error de compilación)
+
 UML
 
     - Unified Modeling Languaje - Lenguaje Unificado de Modelado
@@ -164,3 +177,5 @@ IMPLEMENTANDO CLASES EN JAVA
 6   "Definición y estructura que compone una
     Clase Java"                                     CONCEPTO de Clase, Paquete, explicación de las carpetas del proyecto HumanResources
                                                     MODIFICADORES de acceso para clase!!, IMPORTANCIA de la clase publica y las de default
+7   "Definir e implementar campos dentro de una     CONCEPTOS de Atributos, Identificadores (Las 4 reglas, 2 de sytaxis y 2 de buenas practicas), creamos las 3 clases
+    clase"                                          definidas en nuestro diagrama de clases
