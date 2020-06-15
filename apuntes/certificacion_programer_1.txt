@@ -88,6 +88,10 @@ DIAGRAMA DE CLASES
     - En el encontraremos la definición de los elementos de una clase como son atributos y métodos
     - Encontraremos tambien la relación entre las entidades definidas en la aplicación
 
+IDE
+
+    - Intagrated Development Enviroment  (Entorno de Desarrollo Integrado)
+    - Una herramienta de software que permite a los programadores de software implemendar codigo, compilar y ejecutar
 
 ============= COMANDOS =============
 
@@ -129,4 +133,5 @@ IMPLEMENTANDO CLASES EN JAVA
                                                     EMPLEADOS, DEPARTAMENTOS, GERENTES y SALARIOS (eso fue lo que ubique hasta ahora)
 2   "Introducción a UML (Diagramas de Clase)"       Conceptos de diagramas UML, TAXONOMIA, DIAGRAMA DE CLASES, Representación de modificadores de acceso en un diagrama
                                                     hicimos un ejercicio y cree un archivo donde guarde el diagrama de clases
+3   "Introducción a Java Netbeans"                  El video muestra como esta estructurado Netbeans, tambien dieron el concepto de IDE"
 
