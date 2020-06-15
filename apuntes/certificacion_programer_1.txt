@@ -96,6 +96,10 @@ IDENTIFICADORES
         ~ Deben ser lo más descriptivos posibles                (REGLA: POR CONVENCIÓN / BUENA PRACTICA)
         ~ No se pueden nombrar utilizando una palabra reservada (REGLA: SINTAXIS, si no, manda error de compilación)
 
+MÉTODOS
+
+    - Los métodos pueden igual tener los 4 modificadores de acceso
+
 UML
 
     - Unified Modeling Languaje - Lenguaje Unificado de Modelado
@@ -182,3 +186,5 @@ IMPLEMENTANDO CLASES EN JAVA
 8   "Empujar nuestros cambios a GitHub"             Explicación de como funciona GitHub para subir los cambios, como subir los cambios (git add, commit y push),
                                                     Explica como subir los cambios desde Netbeans (Custumizo la barra con Add, Commit Y Push)
                                                     Hicimos el primer commit de los nuevos archivos (se quita el verde de los archivos en NetBeans)
+9   "Definir e implementar métodos dentro de una    CONCEPTO de Método, puede tener todos los modificadores e hizo solo un método y explico cada una de las partes
+    Clase"                                          tambien dio un ejemplo que no se debe guardar en la clase
