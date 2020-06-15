@@ -71,6 +71,17 @@ OBJETOS
 
     - En java los objetos tienen: ATRIBUTOS/CARACTERISTICAS y COMPORTAMIENTOS
 
+CLASE
+
+    - Es una plantilla o prototipo que nos permite crear un objeto
+    - Los objetos se crean a partir de la definición de una clase
+    - Una clase es como la receta con la que horneamos un pastel
+
+    - Una clase a nivel código fuente solo puede tener dos modificadores de acceso PUBLIC o DEFAULT (Protected y Private dan un error en compilación)                                               IMPORTANTEEEEEEEEEE
+    - Se puede DECLARAR más de una clase en un archivo java Y SOLO una de ellas va a ser publica que es la que tiene el nombre del archivo
+      (si pones otra y no concuerda con el nombre manda error de compilación)                                                                                                                       IMPORTANTEEEEEEEEEE
+    - Se pueden declarar varias clases con el modificador de acceso defult y ninguna llamarse como el archivo                                                                                       IMPORTANTEEEEEEEEEE
+    - LA BUENA PRACTICA es solo tener una clase por archivo, si no es complicada de encontrar las otras clases en caso de que las tengan
 
 UML
 
@@ -96,6 +107,13 @@ IDE
 GIT
 
     - Sistema de Control de versiones
+
+PAQUETE
+
+    - Es una carpeta que contiene clases java
+    - El nombrado de los paquetes por convencion es en minúsculas
+    - Por lo general llevan el domino de la empresa (org.mx o mx.com)
+
 
 ============= COMANDOS =============
 
@@ -141,3 +159,8 @@ IMPLEMENTANDO CLASES EN JAVA
 4   "Introducción a Git y GitHub"                   Una explicación de Git (no habla de GitHub a pesar del titulo jaja), sobre arboles, branches y commit, interesante
 5   "Clonar el proyecto HumanResources de GitHub"   Explica como clonar un proyecto desde Netbeans PERO... necesito permisos ;____; y aun no me los dan, 
                                                     intentare continuar con las clases siguientes para no atrasarme
+                                                    No se pudo porque utilizan el proyecto en la siguiente parte.. a esperar :(
+                                                    ACTUALIZACIÓN: Ya pude, el lunes mismo me dieron permisos y ya pude descargar 15/06/20
+6   "Definición y estructura que compone una
+    Clase Java"                                     CONCEPTO de Clase, Paquete, explicación de las carpetas del proyecto HumanResources
+                                                    MODIFICADORES de acceso para clase!!, IMPORTANCIA de la clase publica y las de default
