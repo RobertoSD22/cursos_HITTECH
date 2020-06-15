@@ -179,3 +179,6 @@ IMPLEMENTANDO CLASES EN JAVA
                                                     MODIFICADORES de acceso para clase!!, IMPORTANCIA de la clase publica y las de default
 7   "Definir e implementar campos dentro de una     CONCEPTOS de Atributos, Identificadores (Las 4 reglas, 2 de sytaxis y 2 de buenas practicas), creamos las 3 clases
     clase"                                          definidas en nuestro diagrama de clases
+8   "Empujar nuestros cambios a GitHub"             Explicación de como funciona GitHub para subir los cambios, como subir los cambios (git add, commit y push),
+                                                    Explica como subir los cambios desde Netbeans (Custumizo la barra con Add, Commit Y Push)
+                                                    Hicimos el primer commit de los nuevos archivos (se quita el verde de los archivos en NetBeans)
