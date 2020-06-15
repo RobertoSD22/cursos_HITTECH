@@ -58,6 +58,21 @@ METODO MAIN
 
     - Es el bloque de codigo que contiene instrucciones que java desde un inicio va a ejecutar
     - Por donde va a iniciar a ejecutar el código
+    - EN NETBEANS, cuando agregas un método MAIN a una clase, se le pone un iconito de "play", si lo alteras o lo escribes mal deja de agregarse este play  
+    - NO HAY ERRORES DE COMPILACIÓN si lo escribes mal, simplemente deja de ser el método main                                                                                                      IMPORTANTEEEEEEEEEE
+    - SE PUEDEN TENER 2 métodos main en una clase, solamente que el primero que se escriba de FORMA CORRECTA va a ser el "principal" (cambiando el parametro de entrada por ejemplo)                IMPORTANTEEEEEEEEEE
+      Ejemplo: public static void main (String argumentotes[]) {} y public static void main (Object[] argumenazos) {}
+    - Un método main se puede cambiar y ser CORRECTO de las siguientes maneras:
+
+        1.  static public void main (String args[])                     Cambiando los modificadores (el primero es un modificador y el segundo un modificador de acceso)
+        1.b static final public void main (String args[])               Igual pero agregando otro modificador (SOLO SE PUEDEN MOVER LOS MODIFICADORES Y NO PUEDE FALTAR STATIC)
+        1.c final static public void main (String args[])
+
+        2.  public static void main (String roberto[])                  El nombre de la variable puede cambiarse por el que sea 
+
+        3.  public static void main (String... args)                    Agregando los 3 puntos, argumentos variables! 
+
+        4.  public static void main (String[] args)                     Cambiando los [] enmedio o al final
 
 JDK
 
@@ -206,3 +221,4 @@ IMPLEMENTANDO CLASES EN JAVA
 9   "Definir e implementar métodos dentro de una    CONCEPTO de Método, puede tener todos los modificadores e hizo solo un método y explico cada una de las partes
     Clase"                                          tambien dio un ejemplo que no se debe guardar en la clase
 10  "Shortcut en NetBeans"                          Concepto de CONCATENACIÓN, se implementaron los métodos de "getDetail" agregandole un monton de Systems.out
+11  "Más sobre el método main"                      Diferentes formas de escribir el método main, MUY interesante, revisarlas bien para exámen
