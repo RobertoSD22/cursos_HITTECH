@@ -38,6 +38,13 @@ MODIFICADOR DE ACCESO
     - Decide quien o que ve nuestra clase, método o atributo
     - Hay 4 tipos de modificadores de acceso: public, private, protected y package
 
+    UML
+
+        +   Público
+        -   Privado
+        #   Protegido
+            Default (vacio)
+
 BLOQUE DE CODIGO
 
     - Contiene varias sentencias que se van a ejecutar
@@ -59,6 +66,28 @@ JDK
     - En este capitulo (el 2) vamos a utilizar java.exe y javac.exe
     - JAVA.exe  Sirve para ejecutar el código (osease la 3 fase de las 3 que tengo)
     - JAVAC.exe Sirve para compilar el código (osease la 2 fase de las 3 que tengo)
+
+OBJETOS
+
+    - En java los objetos tienen: ATRIBUTOS/CARACTERISTICAS y COMPORTAMIENTOS
+
+
+UML
+
+    - Unified Modeling Languaje - Lenguaje Unificado de Modelado
+    - Se basa en diagramas para especificar, visualizar y documentar modelos de sistemas de software orientado a objetos
+
+TAXONOMIA
+
+    - Ciencia para clasificar
+    - Como por ejemplo (Oviparos en bilogía)
+
+DIAGRAMA DE CLASES
+
+    - Es el diagrama principal utilizado en las etapas de análisis y diseño
+    - En el encontraremos la definición de los elementos de una clase como son atributos y métodos
+    - Encontraremos tambien la relación entre las entidades definidas en la aplicación
+
 
 ============= COMANDOS =============
 
@@ -98,4 +127,6 @@ IMPLEMENTANDO CLASES EN JAVA
 1   "Presentación de un problema para su análisis
     y modelado"                                     Un video corto sobre una necesidad que tiene hittechs de crear un sistema que controle cosas como:
                                                     EMPLEADOS, DEPARTAMENTOS, GERENTES y SALARIOS (eso fue lo que ubique hasta ahora)
+2   "Introducción a UML (Diagramas de Clase)"       Conceptos de diagramas UML, TAXONOMIA, DIAGRAMA DE CLASES, Representación de modificadores de acceso en un diagrama
+                                                    hicimos un ejercicio y cree un archivo donde guarde el diagrama de clases
 

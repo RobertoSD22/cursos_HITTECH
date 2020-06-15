@@ -1,0 +1,22 @@
+EMPLOYEE
+	id		int
+	firstName	String
+	lastName	String
+	age		int
+	email		String
+	phoneNumber	String
+	salary		double
+	hireDate	String
+
+	void getDetails()
+
+DEPARTAMENTO
+	id		int
+	titulo		String
+	gerente		int
+
+PUESTO
+	id		int
+	titulo		String
+	maximo_salario	double
+	minimo_salario	double
