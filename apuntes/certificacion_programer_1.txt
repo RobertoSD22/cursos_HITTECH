@@ -115,6 +115,22 @@ MÉTODOS
 
     - Los métodos pueden igual tener los 4 modificadores de acceso
 
+
+IMPORT
+
+    - Se utiliza cuando quiero acceder a una clase que se encuentra en un paquete diferente
+    - Cuando las clases se encuentran en el mismo package no necesitan hacer IMPORT                                                                                                                 IMPORTANTEEEEEEEEEE
+    - No necesita el import de java.lang donde esta la clase String!!!!!                                                                                                                            IMPORTANTEEEEEEEEEE
+    - LOS DOS PAQUETES SE IMPORTAN POR DEFAULT, no necesitan ser declarados
+    - Si se hace el import paquete.* importa SOLO las clases que estan ahi, no importa los subdirectorios!!!!!!!                                                                                    IMPORTANTEEEEEEEEEE
+    - Si el import viene despues de la clase o antes del package manda error de COMPILACION                                                                                                         IMPORTANTEEEEEEEEEE
+
+PACKAGE
+
+    - No puede haber más de una sentencia package                                                                                                                                                   IMPORTANTEEEEEEEEEE
+    - Tiene que ir al principio o da un error de COMPILACION                                                                                                                                        IMPORTANTEEEEEEEEEE
+
+
 UML
 
     - Unified Modeling Languaje - Lenguaje Unificado de Modelado
@@ -223,3 +239,7 @@ IMPLEMENTANDO CLASES EN JAVA
 10  "Shortcut en NetBeans"                          Concepto de CONCATENACIÓN, se implementaron los métodos de "getDetail" agregandole un monton de Systems.out
 11  "Más sobre el método main"                      Diferentes formas de escribir el método main, MUY interesante, revisarlas bien para exámen
 12  "Creación de objetos en Java"                   Explicación de la creación de un objeto a partir de una clase, como se llena el objeto (sus atributos), estuvo sencillo
+13  "Definir e implementar las sentencias
+    package e import"                               Explicación de cual es orden de los package, import y class (pic), se puede tener varios imports, los imports no aplican
+                                                    para las subcarpetas, solo para las clases que lo contienen, por default el package donde esta la clase esta importado,
+                                                    tambien el package java.lang esta por default.
