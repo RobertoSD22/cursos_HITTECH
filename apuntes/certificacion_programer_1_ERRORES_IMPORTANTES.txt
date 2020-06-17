@@ -1,0 +1,11 @@
+
+- El archivo .java puede tener muchas clases con modificador de acceso DEFAULT pero solo una PUBLIC, si no manda error de                           COMPILACIÓN
+- El archivo .java puede tener muchas clases con modificador de acceso DEFAULT pero al menos 1 debe llamarse como el archivo, si no manda error de  COMPILACIÓN
+
+- La clase solo puede tener dos tipos de modificadores de acceso PUBLIC o DEFAULT con los demás manda un error de                                   COMPILACIÓN
+
+- EL import no puede ir antes de package o después de la declaración  de la clase por manda un error de                                             COMPILACIÓN
+
+- Las variables locales tienen que estar inicializadas o si no cuando se usen manda un error de                                                     COMPILACIÓN
+- Las variables locales que se igualan a otra variable local que no esta inicializada manda un error de                                             COMPILACIÓN
+- Las variables locales si tienen un modificador de acceso en ellas mandan un error de                                                              COMPILACIÓN
