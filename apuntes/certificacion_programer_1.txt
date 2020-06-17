@@ -3,7 +3,7 @@
 JAVA
 
     - Nació en 1991
-    - James Goslin fue su creador
+    - James Gosling fue su creador
     - Sun Microsystems es la empresa donde se creo
     - 2010 Oracle adquiere Sun Microsystems
     - A partir de la versión 7 en adelante el poseedor es Oracle
@@ -56,7 +56,7 @@ SENTENCIA
 
 METODO MAIN
 
-    - Es el bloque de codigo que contiene instrucciones que java desde un inicio va a ejecutar
+    - Es el bloque de código que contiene instrucciones que java desde un inicio va a ejecutar
     - Por donde va a iniciar a ejecutar el código
     - EN NETBEANS, cuando agregas un método MAIN a una clase, se le pone un iconito de "play", si lo alteras o lo escribes mal deja de agregarse este play  
     - NO HAY ERRORES DE COMPILACIÓN si lo escribes mal, simplemente deja de ser el método main                                                                                                      IMPORTANTEEEEEEEEEE
@@ -93,9 +93,10 @@ CLASE
     - Una clase es como la receta con la que horneamos un pastel
 
     - Una clase a nivel código fuente solo puede tener dos modificadores de acceso PUBLIC o DEFAULT (Protected y Private dan un error en compilación)                                               IMPORTANTEEEEEEEEEE
-    - Se puede DECLARAR más de una clase en un archivo java Y SOLO una de ellas va a ser publica que es la que tiene el nombre del archivo
+    - Se puede DECLARAR más de una clase en un archivo java Y SOLO una de ellas puede ser publica, que es la que tiene el nombre del archivo
       (si pones otra y no concuerda con el nombre manda error de compilación)                                                                                                                       IMPORTANTEEEEEEEEEE
-    - Se pueden declarar varias clases con el modificador de acceso defult y ninguna llamarse como el archivo                                                                                       IMPORTANTEEEEEEEEEE
+    - Se pueden declarar varias clases con el modificador de acceso defult y ninguna llamarse como el archivo (MANDA ERROR DE EJECUCIÓN no de compilación)                                          IMPORTANTEEEEEEEEEE
+    - FORZOSAMENTE debe haber una declaración de una clase con modificador publico o default que se llame igual que el archivo, ESA será el punto de entrada para ejecutar el código                IMPORTANTEEEEEEEEEE
     - LA BUENA PRACTICA es solo tener una clase por archivo, si no es complicada de encontrar las otras clases en caso de que las tengan
 
 ATRIBUTOS
@@ -115,6 +116,23 @@ MÉTODOS
 
     - Los métodos pueden igual tener los 4 modificadores de acceso
 
+VARIABLES
+
+    - Son un espacio reservado en memoria que guarda/almacena un valor de diferente tipo
+    
+    VARIABLES DE ACUERDO A SU ALCANCE/LUGAR (donde se declaran):
+        ~ Variables de INSTANCIA    Las que se definen dentro de una clase pero fuera de un método
+                                    Le pertenecen a las instancias (objetos)
+                                    Llevan un modificador de acceso
+                                    Son inicializadas con valores por defecto
+        ~ Variables LOCALES         Declaradas dentro de un método o vienen como parámetros de un método
+                                    No llevan un modificador de acceso si se lo agregan DA UN ERROR DE COMPILACION                                                                                  IMPORTANTEEEEEEEEEE
+                                    Deben estar inicializadas antes de ser utilizadas, porque si la usas si inicializar DA UN ERROR DE COMPILACION                                                  IMPORTANTEEEEEEEEEE
+
+    VARIABLES DE ACUERDO AL TIPO DE DATO
+
+        ~ Variables de REFERENCIA   El tipo de dato es una clase
+        ~ Variables PRIMITIVAS      El tipo de dato es un dato primitivo
 
 IMPORT
 
@@ -129,6 +147,11 @@ PACKAGE
 
     - No puede haber más de una sentencia package                                                                                                                                                   IMPORTANTEEEEEEEEEE
     - Tiene que ir al principio o da un error de COMPILACION                                                                                                                                        IMPORTANTEEEEEEEEEE
+PAQUETE
+
+    - Es una carpeta que contiene clases java
+    - El nombrado de los paquetes por convencion es en minúsculas
+    - Por lo general llevan el domino de la empresa (org.mx o mx.com)
 
 
 UML
@@ -156,15 +179,16 @@ GIT
 
     - Sistema de Control de versiones
 
-PAQUETE
 
-    - Es una carpeta que contiene clases java
-    - El nombrado de los paquetes por convencion es en minúsculas
-    - Por lo general llevan el domino de la empresa (org.mx o mx.com)
 
 CONCATENACIÓN
 
     - Unir los valores de las variables
+
+
+============= RECORDAR =============
+
+- Objeto == Instancia
 
 
 ============= COMANDOS =============
@@ -243,3 +267,9 @@ IMPLEMENTANDO CLASES EN JAVA
     package e import"                               Explicación de cual es orden de los package, import y class (pic), se puede tener varios imports, los imports no aplican
                                                     para las subcarpetas, solo para las clases que lo contienen, por default el package donde esta la clase esta importado,
                                                     tambien el package java.lang esta por default.
+
+
+
+VARIABLES Y ALCANCE
+
+1   "Identificar tipos de variables y su alcance"   
