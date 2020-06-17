@@ -136,10 +136,10 @@ VARIABLES
 
 DATOS PRIMITIVOS
 
-    - byte      8 bits      1 byte
+    - byte      8 bits      1 byte      -128 a 127 (el rango de números que recibe)
     - short     16 bits     2 bytes
     - int       32 bits     4 bytes
-    - long      64 bits     8 bytes
+    - long      64 bits     8 bytes     9,223,372,036,854,775,807 (19 posiciones)
     - float     32 bits     4 bytes
     - double    64 bits     8 bytes
     - char      16 bits     2 bytes
@@ -285,4 +285,6 @@ VARIABLES Y ALCANCE
 
 1   "Identificar tipos de variables y su alcance"   CONCEPTOS de Variables, Variables de acuerdo a su alcance (de INSTACIA o LOCALES), Variables de acuerdo a su tipo de dato
                                                     (de REFERENCIA o PRIMITIVAS), empece a guardar en un archivo nuevo los errores que mencionan de compilación o ejecución
-2   "Introducción a los tipos de datos primitivos"  Los 8 tipos de datos primitivos con sus valores en bits
+2   "Introducción a los tipos de datos primitivos"  Los 8 tipos de datos primitivos con sus valores en bits, muy corto el video
+3   "Primitivos Enteros"                            Creamos un nuevo proyecto, lo llamamos algo de primitives, en una clase vamos poniendo los numeros ENTEROS primitivos y solo
+                                                    vimos el rango en números de byte y de long (lo hizo con una calculadora)
