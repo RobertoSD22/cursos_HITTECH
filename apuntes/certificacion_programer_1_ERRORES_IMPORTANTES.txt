@@ -1,11 +1,35 @@
 
+======================== ERRORES ========================
+ARCHIVO .JAVA
 - El archivo .java puede tener muchas clases con modificador de acceso DEFAULT pero solo una PUBLIC, si no manda error de                           COMPILACIÓN
 - El archivo .java puede tener muchas clases con modificador de acceso DEFAULT pero al menos 1 debe llamarse como el archivo, si no manda error de  COMPILACIÓN
 
+CLASE
 - La clase solo puede tener dos tipos de modificadores de acceso PUBLIC o DEFAULT con los demás manda un error de                                   COMPILACIÓN
+- Al menos una de las clases declaradas en el archivo debe llamarse igual que el archivo, si no manda error de                                      EJECUCIÓN
 
+PACKAGE
+- No puede haber más de una sentencia package por que manda error de                                                                                COMPILACIÓN
+- Tiene que ir al principip del archivo o manda un error de                                                                                         COMPILACIÓN
+
+IMPORT
 - EL import no puede ir antes de package o después de la declaración  de la clase por manda un error de                                             COMPILACIÓN
 
+VARIABLES LOCALES
 - Las variables locales tienen que estar inicializadas o si no cuando se usen manda un error de                                                     COMPILACIÓN
 - Las variables locales que se igualan a otra variable local que no esta inicializada manda un error de                                             COMPILACIÓN
 - Las variables locales si tienen un modificador de acceso en ellas mandan un error de                                                              COMPILACIÓN
+
+IDENTIFICADORES
+- Los identificadores solo pueden iniciar con letra, _ o $ si no marca error de                                                                     COMPILACIÓN
+- Los identificadores no pueden ser palabras reservadas si no marca error de                                                                        COMPILACIÓN
+
+LITERALES
+- Si se asigna un valor (literal) entero a una variable long y no se le agrega la L o l manda un error de                                           COMPILACIÓN
+
+
+
+======================== ACTUALIZACIONES ========================
+JAVA 7
+
+- A partir de Java 7 los números se pueden separar con _ sin afectar el valor, por ejemplo: 1_000_000 sigue siendo 1 millón
