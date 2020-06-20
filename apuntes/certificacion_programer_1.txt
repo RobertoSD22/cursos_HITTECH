@@ -137,13 +137,30 @@ VARIABLES
 DATOS PRIMITIVOS
 
     - byte      8 bits      1 byte      -128 a 127 (el rango de números que recibe)
-    - short     16 bits     2 bytes
-    - int       32 bits     4 bytes
+    - short     16 bits     2 bytes     5 posiciones
+    - int       32 bits     4 bytes     10 posiciones
     - long      64 bits     8 bytes     9,223,372,036,854,775,807 (19 posiciones)
     - float     32 bits     4 bytes
     - double    64 bits     8 bytes
-    - char      16 bits     2 bytes
+    - char      16 bits     2 bytes     65,000 (5 posiciones)
     - boolean   16 bits     2 bytes
+
+LITERALES
+
+    Los valores por defecto que se tienen al ser asignados a una variable
+
+    - int           cuando es un número entero su tipo por defecto es int
+    - long          cuando el número entero tiene un l o L
+    - char          cuando estan entre comillas simples ''
+    - String        cuando estan entre comillas dobles ""
+    - boolean       cuando es true o false
+    - float         cuando es un número decimal y tiene una f o F
+    - double        cuando es un número decimal
+
+    - octal         cuando tienen un 0 al prinicipio del número y números del 1 al 7                    01234567            OJO: Este número no es literal, se transforma a otro!
+    - hexadecimal   cuando inician con 0x (mayúscula o minúscula) y luego letras o numeros              0XDEADCAFE          OJO: Este número no es literal, se transforma a otro!
+    - binario       cuando inician con 0b (mayúscula o minúscula) y luego 0´s y 1´s                     0B01010101          OJO: Este número no es literal, se transforma a otro!
+
 
 IMPORT
 
@@ -288,3 +305,4 @@ VARIABLES Y ALCANCE
 2   "Introducción a los tipos de datos primitivos"  Los 8 tipos de datos primitivos con sus valores en bits, muy corto el video
 3   "Primitivos Enteros"                            Creamos un nuevo proyecto, lo llamamos algo de primitives, en una clase vamos poniendo los numeros ENTEROS primitivos y solo
                                                     vimos el rango en números de byte y de long (lo hizo con una calculadora)
+4   "Literales"                                     Concepto de literales, literales en hexadecimal, octal y binario, separar numeros con _ 
