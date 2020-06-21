@@ -307,3 +307,4 @@ VARIABLES Y ALCANCE
                                                     vimos el rango en números de byte y de long (lo hizo con una calculadora)
 4   "Literales"                                     Concepto de literales, literales en hexadecimal, octal y binario, separar numeros con _ 
 5   "Primitivos de coma flotante"                   Ejemplos con double y float, muy sencillo, nada nuevo
+6   "Primitivos de lógicos"                         Ejercicio con boolean, pero a parte hablo de que las literales pueden venir de una operación o de otra variable
