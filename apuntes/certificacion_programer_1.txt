@@ -213,6 +213,15 @@ CONCATENACIÓN
 
     - Unir los valores de las variables
 
+PROMOTION
+
+    - Promoción, cuando asignas una variable de menor tamaño a una de mayor tamaño, como de byte a short o de short a int
+    - SE BASA en la capacidad de los tipos de datos, tambien se puede asignar un long a un float sin mandar ningun error
+
+CASTING
+
+    - Lo contrario a promoción, aqui se tiene que hacer un cast cuando la variable es de un tipo menor a la otra, como de un short a un byte por ejemplo
+
 
 ============= RECORDAR =============
 
@@ -308,4 +317,5 @@ VARIABLES Y ALCANCE
 4   "Literales"                                     Concepto de literales, literales en hexadecimal, octal y binario, separar numeros con _ 
 5   "Primitivos de coma flotante"                   Ejemplos con double y float, muy sencillo, nada nuevo
 6   "Primitivos de lógicos"                         Ejercicio con boolean, pero a parte hablo de que las literales pueden venir de una operación o de otra variable
-7   "Primitivos textuales"                          
+7   "Primitivos textuales"                          Ejercicio con char, un char puede recibir un caracter, un codigo UNICODE, un número del código UNICODE o un caracter de escape!!
+8   "Promoción y casting de variables"              Ejercicio con promoción y casting, hay un ejemplo raro donde un long cabe en un float sin marcar error
