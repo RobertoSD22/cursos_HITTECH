@@ -207,8 +207,6 @@ GIT
 
     - Sistema de Control de versiones
 
-
-
 CONCATENACIÓN
 
     - Unir los valores de las variables
@@ -222,6 +220,28 @@ CASTING
 
     - Lo contrario a promoción, aqui se tiene que hacer un cast cuando la variable es de un tipo menor a la otra, como de un short a un byte por ejemplo
 
+
+STACK
+
+    - Es una pila, primeras entradas primeras salidas, es donde van a vivir las variables las variables LOCALES, tanto referencia como primitivas
+
+HEAP
+
+    - Ahi viven las variables de INSTANCIA, tanto referencia como primitivas
+    - Es una memoria DINAMICA, donde actua la maquina virtual para admistrar los objetos que van creando
+    - Es donde actua el GARBAJE COLLECTOR
+
+VALORES POR DEFECTO
+
+    byte                            0
+    short                           0
+    int                             0
+    long                            0L
+    float                           0.0F
+    double                          0.0
+    char                            '\u0000' (caracter vacio)
+    boolean                         false
+    Toda variable de referencia     null
 
 ============= RECORDAR =============
 
@@ -319,3 +339,6 @@ VARIABLES Y ALCANCE
 6   "Primitivos de lógicos"                         Ejercicio con boolean, pero a parte hablo de que las literales pueden venir de una operación o de otra variable
 7   "Primitivos textuales"                          Ejercicio con char, un char puede recibir un caracter, un codigo UNICODE, un número del código UNICODE o un caracter de escape!!
 8   "Promoción y casting de variables"              Ejercicio con promoción y casting, hay un ejemplo raro donde un long cabe en un float sin marcar error
+9   "Manejo de la administración de la memoria
+    en Java, relación entre Heap y Stack"           Que es Stack, que es Heap y los valores por defecto para los tipos de dato, explicación paso a paso de como Java ejecuta el guardado
+                                                    de las variables primitivas y de referencia, locales y de instancia en el heap y en el stack

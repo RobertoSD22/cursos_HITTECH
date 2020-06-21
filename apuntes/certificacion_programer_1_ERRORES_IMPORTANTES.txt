@@ -27,7 +27,8 @@ IDENTIFICADORES
 LITERALES
 - Si se asigna un valor (literal) entero a una variable long y no se le agrega la L o l manda un error de                                           COMPILACIÓN
 
-
+CASTING
+- Si una variable se iguala a un tipo de dato de mayor tamaño y no se castea manda error de                                                         COMPILACIÓN
 
 ======================== ACTUALIZACIONES ========================
 JAVA 7
