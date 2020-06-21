@@ -142,7 +142,7 @@ DATOS PRIMITIVOS
     - long      64 bits     8 bytes     9,223,372,036,854,775,807 (19 posiciones)
     - float     32 bits     4 bytes
     - double    64 bits     8 bytes
-    - char      16 bits     2 bytes     65,000 (5 posiciones)
+    - char      16 bits     2 bytes     65,535 (5 posiciones)
     - boolean   16 bits     2 bytes
 
 LITERALES
@@ -151,7 +151,7 @@ LITERALES
 
     - int           cuando es un número entero su tipo por defecto es int
     - long          cuando el número entero tiene un l o L
-    - char          cuando estan entre comillas simples ''
+    - char          cuando estan entre comillas simples '', tambien pueden ser valores UNICODE (\u008c ó 94 (En número del unicode)) o DE ESCAPE (\t) 
     - String        cuando estan entre comillas dobles ""
     - boolean       cuando es true o false
     - float         cuando es un número decimal y tiene una f o F
@@ -308,3 +308,4 @@ VARIABLES Y ALCANCE
 4   "Literales"                                     Concepto de literales, literales en hexadecimal, octal y binario, separar numeros con _ 
 5   "Primitivos de coma flotante"                   Ejemplos con double y float, muy sencillo, nada nuevo
 6   "Primitivos de lógicos"                         Ejercicio con boolean, pero a parte hablo de que las literales pueden venir de una operación o de otra variable
+7   "Primitivos textuales"                          
