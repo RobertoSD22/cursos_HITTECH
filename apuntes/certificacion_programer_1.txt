@@ -306,3 +306,4 @@ VARIABLES Y ALCANCE
 3   "Primitivos Enteros"                            Creamos un nuevo proyecto, lo llamamos algo de primitives, en una clase vamos poniendo los numeros ENTEROS primitivos y solo
                                                     vimos el rango en números de byte y de long (lo hizo con una calculadora)
 4   "Literales"                                     Concepto de literales, literales en hexadecimal, octal y binario, separar numeros con _ 
+5   "Primitivos de coma flotante"                   Ejemplos con double y float, muy sencillo, nada nuevo
