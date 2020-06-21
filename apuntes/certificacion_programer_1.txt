@@ -342,3 +342,4 @@ VARIABLES Y ALCANCE
 9   "Manejo de la administración de la memoria
     en Java, relación entre Heap y Stack"           Que es Stack, que es Heap y los valores por defecto para los tipos de dato, explicación paso a paso de como Java ejecuta el guardado
                                                     de las variables primitivas y de referencia, locales y de instancia en el heap y en el stack
+10  "Uso del debug en Netbeans"                     Enseña a usar el debug en netbeans utilizando un poco los conceptos de la clase anterior
