@@ -162,6 +162,14 @@ LITERALES
     - binario       cuando inician con 0b (mayúscula o minúscula) y luego 0´s y 1´s                     0B01010101          OJO: Este número no es literal, se transforma a otro!
 
 
+DECLARAR
+
+    - Mencionar el tipo de dato y el valor/identificador
+
+INICIALIZAR
+
+    - Darle un valor a la variable
+
 IMPORT
 
     - Se utiliza cuando quiero acceder a una clase que se encuentra en un paquete diferente
@@ -247,6 +255,12 @@ ARRAYS
 
     - En Java los arrays son OBJETOS, por lo que su referencia vive en heap
     - Los arrays se componen de ELEMENTOS indexados (es lo que guarda dentro de ellos)
+
+PASOS EN LA CREACIÓN DE UN ARRAY
+
+    1.- Reservar en memoria el espacio que ocupara el objeto (junto con el número de elementos)
+    2.- Realizar la inicialización por defecto de los valores que tendrám esos ELEMENTOS (si son int 0, si son double 0.0, si son objetos null)
+    3.- Enlazar la variable de referencia/objeto en STACK con el HEAP donde se reservo la memoria
 
 ============= RECORDAR =============
 
@@ -348,3 +362,5 @@ VARIABLES Y ALCANCE
     en Java, relación entre Heap y Stack"           Que es Stack, que es Heap y los valores por defecto para los tipos de dato, explicación paso a paso de como Java ejecuta el guardado
                                                     de las variables primitivas y de referencia, locales y de instancia en el heap y en el stack
 10  "Uso del debug en Netbeans"                     Enseña a usar el debug en netbeans utilizando un poco los conceptos de la clase anterior
+11  "Introducción a los Arrays 
+    y sus caracteristicas"                          Una introducción a que son los arreglos, pocos minutos, explica como se almacenan en heap, que son, se componen de ELEMENTOS
