@@ -243,6 +243,11 @@ VALORES POR DEFECTO
     boolean                         false
     Toda variable de referencia     null
 
+ARRAYS
+
+    - En Java los arrays son OBJETOS, por lo que su referencia vive en heap
+    - Los arrays se componen de ELEMENTOS indexados (es lo que guarda dentro de ellos)
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
