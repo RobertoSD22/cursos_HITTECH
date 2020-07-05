@@ -261,6 +261,9 @@ ARRAYS
     - Tambien se puede declarar con String[] identificador = {}
     - LENGTH en un array es una PROPIEDAD
     - LENGTH en un string es un METODO
+    - Los arrays de objetos tienen REFERENCIAS a otros objetos
+
+    - Si a un arreglo se le guarda un objeto con valores y despues EL OBJETO se iguala a NULO, el arreglo sigue apuntando a la referencia y es solo el objeto el que pierde la referencia
 
     EXCEPCION
 
@@ -382,5 +385,6 @@ ARRAYS
                                                     pasos que sigue la declaración e inicialización de un arreglo (son 3, primero se reserva el espacio, luego inicializan los elementos
                                                     y por último se relaciona)
 3   "Accediendo a los elementos de un Array"        Ejemplo de como agregarle un valor en una posición o posiciones a un array, los errores que ocurren en tiempo de COMPILACIÓN y EJECUCIÓN,
-4   "Otras maneras de crear y utilizar arrays"      Como se pierde la referencia a un arreglo cuando se inicializa de nuevo.
-                                                    Los corchetes pueden ir antes del identificador o despues, declaraciones usando {}, la propiedad y el método LENGTH
+                                                    Como se pierde la referencia a un arreglo cuando se inicializa de nuevo.
+4   "Otras maneras de crear y utilizar arrays"      Los corchetes pueden ir antes del identificador o despues, declaraciones usando {}, la propiedad y el método LENGTH
+5   "Array de referencias a objetos"                Ejemplo de arreglo de objetos, IMPORTANTE, guardo un objeto en el arreglo y luego lo igualo con null, PERO el arreglo sigue conservando la referencia
