@@ -30,6 +30,12 @@ LITERALES
 CASTING
 - Si una variable se iguala a un tipo de dato de mayor tamaño y no se castea manda error de                                                         COMPILACIÓN
 
+ARREGLOS
+- Si un arreglo no se inicializa con el tamaño que va a tener manda error de                                                                        COMPILACIÓN
+- Si un arreglo se le da el tamaño con un tipo de dato diferente a int (como un string) manda error de                                              COMPILACIÓN
+- Si un arreglo se le agrega un elemento de diferente tipo al que se le declaro entonces manda error de                                             COMPILACIÓN
+- Si se asigna un valor a un arreglo en una posición que no existe manda un error de                                                                EJECUCIÓN
+
 ======================== ACTUALIZACIONES ========================
 JAVA 7
 

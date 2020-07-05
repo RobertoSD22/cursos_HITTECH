@@ -255,6 +255,11 @@ ARRAYS
 
     - En Java los arrays son OBJETOS, por lo que su referencia vive en heap
     - Los arrays se componen de ELEMENTOS indexados (es lo que guarda dentro de ellos)
+    - Se asigna con x[posicion] = valor
+
+    EXCEPCION
+
+        - Es un error en tiempo de EJECUCIÓN
 
 PASOS EN LA CREACIÓN DE UN ARRAY
 
@@ -265,6 +270,7 @@ PASOS EN LA CREACIÓN DE UN ARRAY
 ============= RECORDAR =============
 
 - Objeto == Instancia
+- Cuando le damos "Ejecutar" es cuando se da EJECUTAR, hasta entonces no se guarda nada en memoria HEAP (se inicializa, se reserva, imprime)
 
 
 ============= COMANDOS =============
@@ -345,7 +351,6 @@ IMPLEMENTANDO CLASES EN JAVA
                                                     tambien el package java.lang esta por default.
 
 
-
 VARIABLES Y ALCANCE
 
 1   "Identificar tipos de variables y su alcance"   CONCEPTOS de Variables, Variables de acuerdo a su alcance (de INSTACIA o LOCALES), Variables de acuerdo a su tipo de dato
@@ -362,5 +367,14 @@ VARIABLES Y ALCANCE
     en Java, relación entre Heap y Stack"           Que es Stack, que es Heap y los valores por defecto para los tipos de dato, explicación paso a paso de como Java ejecuta el guardado
                                                     de las variables primitivas y de referencia, locales y de instancia en el heap y en el stack
 10  "Uso del debug en Netbeans"                     Enseña a usar el debug en netbeans utilizando un poco los conceptos de la clase anterior
-11  "Introducción a los Arrays 
+
+
+
+ARRAYS
+1   "Introducción a los Arrays 
     y sus caracteristicas"                          Una introducción a que son los arreglos, pocos minutos, explica como se almacenan en heap, que son, se componen de ELEMENTOS
+2   "Creación y declaración de un Array"            Nos puso un ejemplo donde se DECLARA y luego se INICIALIZA una variable primitiva, y despues un arreglo, luego enseño los
+                                                    pasos que sigue la declaración e inicialización de un arreglo (son 3, primero se reserva el espacio, luego inicializan los elementos
+                                                    y por último se relaciona)
+3   "Accediendo a los elementos de un Array"        Ejemplo de como agregarle un valor en una posición o posiciones a un array, los errores que ocurren en tiempo de COMPILACIÓN y EJECUCIÓN,
+                                                    Como se pierde la referencia a un arreglo cuando se inicializa de nuevo.
