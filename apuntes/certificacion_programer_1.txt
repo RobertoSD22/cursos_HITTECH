@@ -265,6 +265,18 @@ ARRAYS
 
     - Si a un arreglo se le guarda un objeto con valores y despues EL OBJETO se iguala a NULO, el arreglo sigue apuntando a la referencia y es solo el objeto el que pierde la referencia
 
+ARRAYS DE ARRAYS
+
+    - Solo se necesita decir el valor del primer "nivel" por ejemplo: String[][] hola = [1][];
+    - El primer [] contiene REFERENCIAS, el ultimo [] contiene VALORES, por ejemplo: [#][#][#][valores] o [#][valores]
+    - El primer [] indica que va a contener MAS ARRAYS, por eso es referencia!!
+
+    - puede haber:
+        arreglos REGULARES [2][3] donde se define el tamaño que va a tener en todos los arreglos que se contienen
+        arreglos IRREGULARES [2][] donde no se define el tamaño que va a tener una de sus referencias y puede variar por ejemplo:
+            int hola[0] = new int[3];
+            int hola[1] = new int[2];
+
     EXCEPCION
 
         - Es un error en tiempo de EJECUCIÓN
@@ -388,3 +400,4 @@ ARRAYS
                                                     Como se pierde la referencia a un arreglo cuando se inicializa de nuevo.
 4   "Otras maneras de crear y utilizar arrays"      Los corchetes pueden ir antes del identificador o despues, declaraciones usando {}, la propiedad y el método LENGTH
 5   "Array de referencias a objetos"                Ejemplo de arreglo de objetos, IMPORTANTE, guardo un objeto en el arreglo y luego lo igualo con null, PERO el arreglo sigue conservando la referencia
+6   "Array de Arrays"                               Ejemplo de arreglos de arreglos, declaración, ARRAY DE ARRAY REGULARES o ARRAY DE ARRAY IRREGULARES
