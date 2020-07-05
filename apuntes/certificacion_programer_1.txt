@@ -256,6 +256,11 @@ ARRAYS
     - En Java los arrays son OBJETOS, por lo que su referencia vive en heap
     - Los arrays se componen de ELEMENTOS indexados (es lo que guarda dentro de ellos)
     - Se asigna con x[posicion] = valor
+    - Los corchetes de arreglo pueden ir antes "String[] identificador" o despues "String identificador[]" 
+      (el primero es el buena practica porque si el nombre esta muy grande no se alcanza a ver)
+    - Tambien se puede declarar con String[] identificador = {}
+    - LENGTH en un array es una PROPIEDAD
+    - LENGTH en un string es un METODO
 
     EXCEPCION
 
@@ -377,4 +382,5 @@ ARRAYS
                                                     pasos que sigue la declaración e inicialización de un arreglo (son 3, primero se reserva el espacio, luego inicializan los elementos
                                                     y por último se relaciona)
 3   "Accediendo a los elementos de un Array"        Ejemplo de como agregarle un valor en una posición o posiciones a un array, los errores que ocurren en tiempo de COMPILACIÓN y EJECUCIÓN,
-                                                    Como se pierde la referencia a un arreglo cuando se inicializa de nuevo.
+4   "Otras maneras de crear y utilizar arrays"      Como se pierde la referencia a un arreglo cuando se inicializa de nuevo.
+                                                    Los corchetes pueden ir antes del identificador o despues, declaraciones usando {}, la propiedad y el método LENGTH
