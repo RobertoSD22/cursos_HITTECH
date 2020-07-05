@@ -281,6 +281,19 @@ ARRAYS DE ARRAYS
 
         - Es un error en tiempo de EJECUCIÓN
 
+MAIN ARRAY
+
+    - Se pueden pasar parametros al array que llega en main, hay dos formas:
+
+        ~ NETBEANS: en properties (del proyecto) - en el apartado de RUN - en la opción de ARGUMENTS ahi ponemos los argumentos, para que sean varios se separan con "", por ejemplo:
+            "hola"  "mundo"
+            luego se selecciona la clase MAIN en el campo correspondiente y se le da click en "OK"
+            y por ultimo click derecho al proyecto y en RUN (no funciona si lo haces desde el archivo click derecho run)
+        ~ CONSOLA: se compila la clase PERO desde el paguete donde se esta haciendo: javac mx/com/hittechs/arrays/ArgsTest.java
+                   luego se ejecuta pero cambiando por . asi: java mx.com.hittechs.arrays.ArgsTest "Hola Mundo" " Java"
+
+
+
 PASOS EN LA CREACIÓN DE UN ARRAY
 
     1.- Reservar en memoria el espacio que ocupara el objeto (junto con el número de elementos)
@@ -401,3 +414,4 @@ ARRAYS
 4   "Otras maneras de crear y utilizar arrays"      Los corchetes pueden ir antes del identificador o despues, declaraciones usando {}, la propiedad y el método LENGTH
 5   "Array de referencias a objetos"                Ejemplo de arreglo de objetos, IMPORTANTE, guardo un objeto en el arreglo y luego lo igualo con null, PERO el arreglo sigue conservando la referencia
 6   "Array de Arrays"                               Ejemplo de arreglos de arreglos, declaración, ARRAY DE ARRAY REGULARES o ARRAY DE ARRAY IRREGULARES
+7   "Accediendo al array args del método main"
