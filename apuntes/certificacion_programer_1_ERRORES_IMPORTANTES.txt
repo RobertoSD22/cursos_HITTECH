@@ -42,6 +42,16 @@ SWITCH
 
 CONTINUE
 - Cuando esta declarado dentro de un ciclo y no hay una condicional, lo que se declara posterior manda error de                                     COMPILACIÓN
+  SE LLAMAN SENTENCIAS INALCANZABLES!
+
+BREAK
+- Cuando esta declarado dentro de un ciclo y no hay una condicional, lo que se declara posterior manda error de                                     COMPILACIÓN
+  SE LLAMAN SENTENCIAS INALCANZABLES!
+
+RETURN
+- Cuando esta declarado dentro de un método, lo que se declara posterior manda error de                                                             COMPILACIÓN
+  SE LLAMAN SENTENCIAS INALCANZABLES
+
 ======================== ACTUALIZACIONES ========================
 JAVA 7
 

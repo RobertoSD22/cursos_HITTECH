@@ -416,6 +416,9 @@ BREAK y CONTINUE
 
     - Continue: se salta la iteración en la que esta, SI HAY ALGO POSTERIOR no lo hace
     - Break: Rompe todo el ciclo
+    - SENTENCIA INALCANZABLE: Todo lo que esta posterior al continue o al break 
+    - SENTENCIA INALCANZABLE: Lo posterior al return en un método
+    - SENTENCIA INALCANZACLE: Cuando se tiene algo posterior a un ciclo infinito
 
 
 ============= RECORDAR =============
@@ -555,3 +558,4 @@ CICLOS
 4   Iterar sobre arrays                             Un ejercicio de como ir iterando un array, sencillo
 5   Estructura y sintaxis de for each               Un ejercicio muy sencillo, nada nuevo
 6   Break y Continue                                Continue hace que dentro del ciclo, lo que esta posterior no se ejecute!!!, break funciona como lo conocemos
+7   Sentencias inalcanzables                        
