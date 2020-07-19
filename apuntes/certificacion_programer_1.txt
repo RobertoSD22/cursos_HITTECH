@@ -547,4 +547,5 @@ CICLOS
                                                     variables, se puede utilizar una condicional que no tenga que ver con la variable declarada, los pasos como funciona, etc.
 2   Estructura y sintaxis del ciclo While           Un ejercicio muy sencillo, no tiene muchas cosas relevantes
 3   Estructura y sintaxis del ciclo do While        Un ejercicio muy sencillo de nuevo, no tiene cosas relevantes
-4   Iterar sobre arrays                             Un ejercicio de como ir iterando un array, sencillo   
+4   Iterar sobre arrays                             Un ejercicio de como ir iterando un array, sencillo
+5   Estructura y sintaxis de for each               Un ejercicio muy sencillo, nada nuevo
