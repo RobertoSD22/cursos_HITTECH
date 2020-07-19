@@ -36,6 +36,10 @@ ARREGLOS
 - Si un arreglo se le agrega un elemento de diferente tipo al que se le declaro entonces manda error de                                             COMPILACIÓN
 - Si se asigna un valor a un arreglo en una posición que no existe manda un error de                                                                EJECUCIÓN
 
+SWITCH
+- Si se usa el mismo valor en los case o por lo menos más de una vez, manda error de                                                                COMPILACIÓN
+- Solo acepta int, short, byte, char, String y ENUM, si no manda error de                                                                           COMPILACIÓN
+
 ======================== ACTUALIZACIONES ========================
 JAVA 7
 

@@ -364,10 +364,19 @@ OPERADORES TERNARIOS
 
     - ? :
 
-ESTRUCTURA IF / ELSE
+IF / ELSE ESTRUCTURA
 
     - LA PRIMERA SENTENCIA CUANDO NO HAY LLAVES ES LA CONDICIONADA
     - Se puede inicializar una variable dentro del if!! por ejemplo if (a = false)  NO SE PUEDE DECLARAR!!!!!!!!
+
+SWITCH ESTRUCTURA 
+
+    - Se pueden usar: byte, shot, int, char, String y ENUM NADA MÁS
+    - A partir de la versión 7 acepto String
+    - El default puede ir sin break;
+    - DEFAULT PUEDE IR AL PRINICIPIO!!!!!!!!!! Y NO AFECTA EN NADA
+    - OJO, cuando encuentra donde quedarse, va a pintar todo hasta encontrar un break, si los otros case no tienen break se va a meter ahi (VER EJEMPLO SwitchTest)
+
 
 
 
@@ -500,3 +509,4 @@ OPERADORES Y ESTRUCTURAS DE DECISIÓN
 6   Operadores bit a bit                            SUMAN Bit, esta muy chido, hay que repasar, el ejemplo se quedo en BitsTest
 7   Operador Ternario                               Estaba sencillo, ya lo sabia, no vimos nada nuevo
 8   Estructura if / else                            Usar if sin llaves!! (solo la primera linea esta dentro de la condicional), usar if (b = true)!!! asignando dentro del if, tambien se puede
+9   Estructura switch                               Como usarlo, como puede ir deafult hasta arriba, como usa los break, como debe ser de los tipos int, short, byte, char, String y enum        
