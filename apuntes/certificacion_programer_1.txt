@@ -310,9 +310,10 @@ OPERADORES ARITMETICOS
         System.out.println("Resultado: " + i + j + 5); <-- todos cadenas
         System.out.println("Resultado: " + i + j / 5); <-- se hace la operación y luego todos se concatenan
          
+OPERADORES DE ASIGNACIÓN
 
-
-
+    - Simplifican la asignación operación de los valores
+    - +=, -= , *=, /=
 
 
 ============= RECORDAR =============
@@ -432,4 +433,6 @@ ARRAYS
 7   "Accediendo al array args del método main"      Ejemplo de como pasar parametros por consola y por netbeans
 
 OPERADORES Y ESTRUCTURAS DE DECISIÓN
-1   Operadores aritmeticos                          Ejemplos con operadores aritmeticos, estan perros, cuando se usan parentesis, cuando usan precendencia, cuando se vuelven cadenas
+1   Operadores aritmeticos                          + - % / * ,Ejemplos con operadores aritmeticos, estan perros, cuando se usan parentesis, cuando usan precendencia, cuando se vuelven cadenas
+2   Operadores de asginación                        += , -=, /= , Ejemplo (AsignTest.java), simplifican las operaciones de asignación en combinación con una aritmetica, NO NOS ENSEÑARON los de nivel de bytes
+                                                    dijo que para más adelante en el curso (|= o el ^=)
