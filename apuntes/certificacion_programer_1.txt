@@ -339,6 +339,27 @@ OPERADORES CONDICIONALES
         ~ con ^ evalua si es true y true o false y false NO DEJA PASAR, pero si son diferentes true y false o false y true si los deja pasar
     - && es de CORTO CIRCUITO
 
+OPERADORES BIT A BIT
+
+    - &, | y ^
+    - Suma la representación binaria de las variables dependiendo del operador & o | y ^
+    - Se escriben int resultado = a | b  ó  int resultado = b ^ c
+    - POR EJEMPLO: 12 y 13 con &, la representación binaria seria: 1100 1101 respectivamente, entonces:
+        1100
+        1101
+        ----
+        1100 <--------- esto da un 12
+    - EL MISMO pero con |, entonces:
+        1100
+        1101
+        ----
+        1101 <--------- esto da un 13
+    - El MISMO pero cn ^, entonces:
+        1100
+        1101
+        ----
+        0001 <--------- esto es un 1
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -463,3 +484,4 @@ OPERADORES Y ESTRUCTURAS DE DECISIÓN
 4   Operadores relacionales                         >, <, <=, >=, ==, !=, MUY SENCILLOS, al ejercicio no le movi, solo enseña como funcionan (RelationalTest.java)
 5   Operadores condicionales                        &&, &, ||, |, !, ^, ya vi para que sirve & nada más, pero no veo en que se pueda utilizar, 
                                                     APRENDI a utilizar ^ (sirve para cuando el resultado es true y false o false y true), ahi se deja pasar, porque cuando es false false o true true no pasa
+6   Operadores bit a bit                            SUMAN Bit, esta muy chido, hay que repasar, el ejemplo se quedo en BitsTest
