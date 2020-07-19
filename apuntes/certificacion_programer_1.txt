@@ -292,13 +292,28 @@ MAIN ARRAY
         ~ CONSOLA: se compila la clase PERO desde el paguete donde se esta haciendo: javac mx/com/hittechs/arrays/ArgsTest.java
                    luego se ejecuta pero cambiando por . asi: java mx.com.hittechs.arrays.ArgsTest "Hola Mundo" " Java"
 
-
-
 PASOS EN LA CREACIÓN DE UN ARRAY
 
     1.- Reservar en memoria el espacio que ocupara el objeto (junto con el número de elementos)
     2.- Realizar la inicialización por defecto de los valores que tendrám esos ELEMENTOS (si son int 0, si son double 0.0, si son objetos null)
     3.- Enlazar la variable de referencia/objeto en STACK con el HEAP donde se reservo la memoria
+
+OPERADORES ARITMETICOS
+
+    - +, -, *, / y %
+    - Se resuelven por precedencia (como en la imagen que esta en el escritorio), por ejemplo:
+        System.out.println("Resultado aritmetico2: " + (2 + 5 * 6 / 7 % 6 + 7)); <-- 
+        primero la multiplicación, luego la división, luego el residuo, luego la suma con 2 y al ultimo la suma con 7
+    - Los parentesis influyen ya que pueden cambiar el orden (PERO NO LA PRESEDENCIA), por ejemplo:
+        System.out.println("Resultado aritmetico2: " + (2 + 5 * (6 / 7) % 6 + 7)); 
+    - Si hay una cadena al principio vuelve los elementos cadena igual, a menos que se usen los parentesis
+        System.out.println("Resultado: " + i + j + 5); <-- todos cadenas
+        System.out.println("Resultado: " + i + j / 5); <-- se hace la operación y luego todos se concatenan
+         
+
+
+
+
 
 ============= RECORDAR =============
 
@@ -414,4 +429,7 @@ ARRAYS
 4   "Otras maneras de crear y utilizar arrays"      Los corchetes pueden ir antes del identificador o despues, declaraciones usando {}, la propiedad y el método LENGTH
 5   "Array de referencias a objetos"                Ejemplo de arreglo de objetos, IMPORTANTE, guardo un objeto en el arreglo y luego lo igualo con null, PERO el arreglo sigue conservando la referencia
 6   "Array de Arrays"                               Ejemplo de arreglos de arreglos, declaración, ARRAY DE ARRAY REGULARES o ARRAY DE ARRAY IRREGULARES
-7   "Accediendo al array args del método main"
+7   "Accediendo al array args del método main"      Ejemplo de como pasar parametros por consola y por netbeans
+
+OPERADORES Y ESTRUCTURAS DE DECISIÓN
+1   Operadores aritmeticos                          Ejemplos con operadores aritmeticos, estan perros, cuando se usan parentesis, cuando usan precendencia, cuando se vuelven cadenas
