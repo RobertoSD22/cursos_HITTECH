@@ -377,8 +377,30 @@ SWITCH ESTRUCTURA
     - DEFAULT PUEDE IR AL PRINICIPIO!!!!!!!!!! Y NO AFECTA EN NADA
     - OJO, cuando encuentra donde quedarse, va a pintar todo hasta encontrar un break, si los otros case no tienen break se va a meter ahi (VER EJEMPLO SwitchTest)
 
+FOR ciclo
 
+    - Se divide en 3 secciones:
+        ~ DECLARACIÓN: Coloca las variables donde el ciclo va a estar trabajando (ES OPCIONAL, puede estar o no)
+        ~ CONDICION: Coloca la condición con la que se va a ejecutar (DEBE REGRESAR UN TRU O FALSE)
+        ~ ACTUALIZACIÓN: Una expresión donde se va a ir actualizando la variable
 
+    - La DECLARACIÓN es la unica que se ejecuta 1 sola vez
+    - TODAS LAS SECCIONES SON OPCIONALES
+
+    - Pasos de ejecución:
+        ~ Declaración
+        ~ Condición
+        ~ Ejecución del bloque
+        ~ Actualización y regresa a condición
+
+    - Se puede poner: for (;;) y NO GENERA ERROR de compilación, SE HACE UN BUCKLE INFINITO
+    - Se puede poner: for (int i = 0; ;) o 
+    - Se puede poner: for (System.out.println("hola);i > 0;++i)
+    - Se puede poner: for (String c = "hola"; (i >= a); c = "hola2")
+    - Se pueden declarar varias variables: for (int a = 0, b = 10, c=200; ;)
+    - Se pueden actualizar varias variables: for (;;i++, j--, x+=2)
+
+    - NOTA*: Solo puede haber un ; por sección, por eso solo se pueden separar por comas
 
 
 
@@ -509,4 +531,8 @@ OPERADORES Y ESTRUCTURAS DE DECISIÓN
 6   Operadores bit a bit                            SUMAN Bit, esta muy chido, hay que repasar, el ejemplo se quedo en BitsTest
 7   Operador Ternario                               Estaba sencillo, ya lo sabia, no vimos nada nuevo
 8   Estructura if / else                            Usar if sin llaves!! (solo la primera linea esta dentro de la condicional), usar if (b = true)!!! asignando dentro del if, tambien se puede
-9   Estructura switch                               Como usarlo, como puede ir deafult hasta arriba, como usa los break, como debe ser de los tipos int, short, byte, char, String y enum        
+9   Estructura switch                               Como usarlo, como puede ir deafult hasta arriba, como usa los break, como debe ser de los tipos int, short, byte, char, String y enum
+
+CICLOS
+1   Estructura y sintaxis del ciclo for             Un monton de cosas nuevas, en el for no es requerido poner todas sus secciones, se puede declarar varias variables, se pueden actualizar igual
+                                                    variables, se puede utilizar una condicional que no tenga que ver con la variable declarada, los pasos como funciona, etc.          
