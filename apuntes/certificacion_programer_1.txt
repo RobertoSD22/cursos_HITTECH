@@ -360,6 +360,10 @@ OPERADORES BIT A BIT
         ----
         0001 <--------- esto es un 1
 
+OPERADORES TERNARIOS
+
+    - ? :
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -485,3 +489,4 @@ OPERADORES Y ESTRUCTURAS DE DECISIÓN
 5   Operadores condicionales                        &&, &, ||, |, !, ^, ya vi para que sirve & nada más, pero no veo en que se pueda utilizar, 
                                                     APRENDI a utilizar ^ (sirve para cuando el resultado es true y false o false y true), ahi se deja pasar, porque cuando es false false o true true no pasa
 6   Operadores bit a bit                            SUMAN Bit, esta muy chido, hay que repasar, el ejemplo se quedo en BitsTest
+7   Operador Ternario                               Estaba sencillo, ya lo sabia, no vimos nada nuevo
