@@ -40,6 +40,8 @@ SWITCH
 - Si se usa el mismo valor en los case o por lo menos más de una vez, manda error de                                                                COMPILACIÓN
 - Solo acepta int, short, byte, char, String y ENUM, si no manda error de                                                                           COMPILACIÓN
 
+CONTINUE
+- Cuando esta declarado dentro de un ciclo y no hay una condicional, lo que se declara posterior manda error de                                     COMPILACIÓN
 ======================== ACTUALIZACIONES ========================
 JAVA 7
 

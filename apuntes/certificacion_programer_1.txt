@@ -412,6 +412,11 @@ DO WHILE
     - Se compone de BLOQUE y CONDICIÓN 
     - Al menos entra 1 vez
 
+BREAK y CONTINUE
+
+    - Continue: se salta la iteración en la que esta, SI HAY ALGO POSTERIOR no lo hace
+    - Break: Rompe todo el ciclo
+
 
 ============= RECORDAR =============
 
@@ -549,3 +554,4 @@ CICLOS
 3   Estructura y sintaxis del ciclo do While        Un ejercicio muy sencillo de nuevo, no tiene cosas relevantes
 4   Iterar sobre arrays                             Un ejercicio de como ir iterando un array, sencillo
 5   Estructura y sintaxis de for each               Un ejercicio muy sencillo, nada nuevo
+6   Break y Continue                                Continue hace que dentro del ciclo, lo que esta posterior no se ejecute!!!, break funciona como lo conocemos
