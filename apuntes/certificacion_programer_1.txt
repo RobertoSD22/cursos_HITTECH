@@ -330,6 +330,15 @@ OPERADORES RELACIONALES
     
     - >, <, <=, >=, ==, !=
 
+OPERADORES CONDICIONALES
+
+    - &&, &, ||, |, !, ^
+    - Por ejemplo:
+        ~ con && solo evalua la primera operación y termina ahi. 
+        ~ con & evalua el primero y el segundo, aun que el primero haya salido false!!! (aplica lo mismo con OR)
+        ~ con ^ evalua si es true y true o false y false NO DEJA PASAR, pero si son diferentes true y false o false y true si los deja pasar
+    - && es de CORTO CIRCUITO
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -452,3 +461,5 @@ OPERADORES Y ESTRUCTURAS DE DECISIÓN
                                                     dijo que para más adelante en el curso (|= o el ^=)
 3   Operadores unarios                              Solo ocupan un operando, por ejemplo +a, -a, ++a o a++ y ~a, hicimos un ejercicio (UnuaryTest.java) con ++a y a++, yo me puse a revisar que era el ~
 4   Operadores relacionales                         >, <, <=, >=, ==, !=, MUY SENCILLOS, al ejercicio no le movi, solo enseña como funcionan (RelationalTest.java)
+5   Operadores condicionales                        &&, &, ||, |, !, ^, ya vi para que sirve & nada más, pero no veo en que se pueda utilizar, 
+                                                    APRENDI a utilizar ^ (sirve para cuando el resultado es true y false o false y true), ahi se deja pasar, porque cuando es false false o true true no pasa
