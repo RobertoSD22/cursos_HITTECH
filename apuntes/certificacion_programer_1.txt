@@ -315,6 +315,16 @@ OPERADORES DE ASIGNACIÓN
     - Simplifican la asignación operación de los valores
     - +=, -= , *=, /=
 
+OPERADORES UNUARIOS
+
+    - Necesitan un unico operando para hacer la operación, por ejemplo solo necesitan a, mientras que en los aritmeticos necesitan "a" y a "b"
+    - Por ejemplo:
+        ~ +a        Indica que es un valor positivo (no se necesita declarar, es raro)
+        ~ -b        Indica que es un valor negativo
+        ~ a++ o ++a Cuando esta al derecho, primero obtiene el valor actual y luego incrementa (hasta la siguiente sentencia)
+                    Cuando esta del lado izquierdo, incrementa y luego obtiene el valor :)
+        ~ ~a        Solo aplica en valores enteros, cambia todos los bits de 0 a 1 y los 1 a 0;
+
 
 ============= RECORDAR =============
 
@@ -436,3 +446,4 @@ OPERADORES Y ESTRUCTURAS DE DECISIÓN
 1   Operadores aritmeticos                          + - % / * ,Ejemplos con operadores aritmeticos, estan perros, cuando se usan parentesis, cuando usan precendencia, cuando se vuelven cadenas
 2   Operadores de asginación                        += , -=, /= , Ejemplo (AsignTest.java), simplifican las operaciones de asignación en combinación con una aritmetica, NO NOS ENSEÑARON los de nivel de bytes
                                                     dijo que para más adelante en el curso (|= o el ^=)
+3   Operadores unarios                              Solo ocupan un operando, por ejemplo +a, -a, ++a o a++ y ~a, hicimos un ejercicio (UnuaryTest.java) con ++a y a++, yo me puse a revisar que era el ~
