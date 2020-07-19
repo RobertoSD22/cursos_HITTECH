@@ -379,10 +379,11 @@ SWITCH ESTRUCTURA
 
 FOR ciclo
 
-    - Se divide en 3 secciones:
+    - Se divide en 4 secciones:
         ~ DECLARACIÓN: Coloca las variables donde el ciclo va a estar trabajando (ES OPCIONAL, puede estar o no)
         ~ CONDICION: Coloca la condición con la que se va a ejecutar (DEBE REGRESAR UN TRU O FALSE)
         ~ ACTUALIZACIÓN: Una expresión donde se va a ir actualizando la variable
+        - BLOQUE: Donde se encuentra el bloque de codigo
 
     - La DECLARACIÓN es la unica que se ejecuta 1 sola vez
     - TODAS LAS SECCIONES SON OPCIONALES
@@ -401,6 +402,11 @@ FOR ciclo
     - Se pueden actualizar varias variables: for (;;i++, j--, x+=2)
 
     - NOTA*: Solo puede haber un ; por sección, por eso solo se pueden separar por comas
+
+WHILE ciclo
+
+    - Se compone de CONDICIÓN y BLOQUE
+
 
 
 
@@ -535,4 +541,5 @@ OPERADORES Y ESTRUCTURAS DE DECISIÓN
 
 CICLOS
 1   Estructura y sintaxis del ciclo for             Un monton de cosas nuevas, en el for no es requerido poner todas sus secciones, se puede declarar varias variables, se pueden actualizar igual
-                                                    variables, se puede utilizar una condicional que no tenga que ver con la variable declarada, los pasos como funciona, etc.          
+                                                    variables, se puede utilizar una condicional que no tenga que ver con la variable declarada, los pasos como funciona, etc.
+2   Estructura y sintaxis del ciclo While           Un ejercicio muy sencillo, no tiene muchas cosas relevantes        
