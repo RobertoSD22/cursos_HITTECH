@@ -326,6 +326,10 @@ OPERADORES UNUARIOS
         ~ ~a        Solo aplica en valores enteros, cambia todos los bits de 0 a 1 y los 1 a 0;
 
 
+OPERADORES RELACIONALES                        
+    
+    - >, <, <=, >=, ==, !=
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -447,3 +451,4 @@ OPERADORES Y ESTRUCTURAS DE DECISIÓN
 2   Operadores de asginación                        += , -=, /= , Ejemplo (AsignTest.java), simplifican las operaciones de asignación en combinación con una aritmetica, NO NOS ENSEÑARON los de nivel de bytes
                                                     dijo que para más adelante en el curso (|= o el ^=)
 3   Operadores unarios                              Solo ocupan un operando, por ejemplo +a, -a, ++a o a++ y ~a, hicimos un ejercicio (UnuaryTest.java) con ++a y a++, yo me puse a revisar que era el ~
+4   Operadores relacionales                         >, <, <=, >=, ==, !=, MUY SENCILLOS, al ejercicio no le movi, solo enseña como funcionan (RelationalTest.java)
