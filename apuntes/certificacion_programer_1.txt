@@ -364,6 +364,15 @@ OPERADORES TERNARIOS
 
     - ? :
 
+ESTRUCTURA IF / ELSE
+
+    - LA PRIMERA SENTENCIA CUANDO NO HAY LLAVES ES LA CONDICIONADA
+    - Se puede inicializar una variable dentro del if!! por ejemplo if (a = false)  NO SE PUEDE DECLARAR!!!!!!!!
+
+
+
+
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -490,3 +499,4 @@ OPERADORES Y ESTRUCTURAS DE DECISIÓN
                                                     APRENDI a utilizar ^ (sirve para cuando el resultado es true y false o false y true), ahi se deja pasar, porque cuando es false false o true true no pasa
 6   Operadores bit a bit                            SUMAN Bit, esta muy chido, hay que repasar, el ejemplo se quedo en BitsTest
 7   Operador Ternario                               Estaba sencillo, ya lo sabia, no vimos nada nuevo
+8   Estructura if / else                            Usar if sin llaves!! (solo la primera linea esta dentro de la condicional), usar if (b = true)!!! asignando dentro del if, tambien se puede
