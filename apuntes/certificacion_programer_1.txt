@@ -558,4 +558,17 @@ CICLOS
 4   Iterar sobre arrays                             Un ejercicio de como ir iterando un array, sencillo
 5   Estructura y sintaxis de for each               Un ejercicio muy sencillo, nada nuevo
 6   Break y Continue                                Continue hace que dentro del ciclo, lo que esta posterior no se ejecute!!!, break funciona como lo conocemos
-7   Sentencias inalcanzables                        
+7   Sentencias inalcanzables                        Sentencias que vienen despues del break, return, continue o un ciclo infinito
+
+TRABAJANDO CON REFERENCIAS A OBJETOS
+
+1   Uso e implementación de encapsulamiento         Cambiamos los modificadores de acceso de los atributos la clase Employee, empieza a explicar el encapsulamiento
+2   Control de acceso y uso de private
+3   Métodos Get y Set
+4   Utilizar la palabra reservada this
+5   Trabajar con referencias a Objetos
+6   Resolver NullPointerException
+7   Diferenciar entre Paso por Valor y Paso por
+    Referencia
+8   Conocer cuando los objetos son elegibles por
+    el Garbage Collector
