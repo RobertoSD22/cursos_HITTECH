@@ -586,5 +586,5 @@ TRABAJANDO CON REFERENCIAS A OBJETOS
 6   Resolver NullPointerException                   Nos enseña como settear los objetos porque como se llamaban en el getDetail mandaban nullpointer, tambien agrego una validación en getDetail
 7   Diferenciar entre Paso por Valor y Paso por     Paso por valor cuando es una variable primitiva, Paso por referencia cuando es un objeto
     Referencia
-8   Conocer cuando los objetos son elegibles por
+8   Conocer cuando los objetos son elegibles por    Cuando pierde todas las referencias el objeto ya es elegible para el garbaje, una explicación sencilla de 7 minutos
     el Garbage Collector
