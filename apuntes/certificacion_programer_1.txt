@@ -437,6 +437,29 @@ PASO POR VALOR Y PASO POR REFERENCIA
     - Cuando mandas una variable primitiva a un método SE COPIA EL VALOR, no la referencia
     - Cuando mandas una variable de Instancia a un método SE MANDA LA REFERENCIA
 
+ELEGIBLES POR EL GARBAGE COLLECTOR
+
+    - Cuando ya nadie a punta a la referencia y antes habia 1 o varios objetos apuntando a ella, se pueden igualar a null
+
+
+STRING
+
+    - El método CONCAT genera una nueva cadena en una nueva referencia, no lo hace en la misma
+    - charAt(indice)                    regresa: un cacarter
+    - contains(cadena)                  regresa: booleano
+    - starsWith(cadena)                 regresa: booleano
+    - endsWith(cadena)                  regresa: booleando
+    - indexOf(cadena)                   regresa: int (Si pasan una cadena, pasa el indice donde inicia)
+    - lenght()                          regresa: int (numero de caracteres)
+    - replace(cadena)                   regresa: nueva cadena
+    - substring(indice)                 regresa: nueva cadena (desde en indice que se le dijo)
+    - substring(indice, indicefinal)    regresa: nueva cadena (desde donde se dijo hasta UNO ANTES de donde se dijo)                                                                            IMPORTANTEEEEEEEEEE
+    - toLowerCase()                     regresa: nueva cadena en minusculas
+    - toUpperCase()                     regresa: nueva cadena en mayusculas
+    - trim()                            regresa: nueva cadena sin espacios a los lados
+
+
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -577,7 +600,6 @@ CICLOS
 7   Sentencias inalcanzables                        Sentencias que vienen despues del break, return, continue o un ciclo infinito
 
 TRABAJANDO CON REFERENCIAS A OBJETOS
-
 1   Uso e implementación de encapsulamiento         Cambiamos los modificadores de acceso de los atributos la clase Employee, empieza a explicar el encapsulamiento
 2   Control de acceso y uso de private              Explicación de private y como no se puede acceder, tambien puso una tablita para los modificadores publicos y privados
 3   Métodos Get y Set                               Cambiamos las clases que usamos al principio (Employee, Department, etc) cambiando los atributos a encapsulados, sencillo
@@ -588,3 +610,22 @@ TRABAJANDO CON REFERENCIAS A OBJETOS
     Referencia
 8   Conocer cuando los objetos son elegibles por    Cuando pierde todas las referencias el objeto ya es elegible para el garbaje, una explicación sencilla de 7 minutos
     el Garbage Collector
+
+TRABAJANDO CON API´s JAVA
+1   Utilizar la clase String                        Los métodos más importantes de string, seguro vienen en el examen, hay que practicarlos
+2   Probar la igualdad de String 
+    mediante == y equals()
+3   Diferenciar entre Objeto y Literal String
+4   Aprender a utilizar la documentación de la API
+    de Java
+5   Utilizar la clase StringBuilder
+6   Utilizar las clases Wrapper (Byte, Short,
+    Integer, Long, Float, Double, Boolean, Charanter)
+7   Conocer los conceptos de Boxing y Unboxing entre
+    primitivos y Wrapper
+8   Manejo de fechas y horarios
+9   LocalDate, LocalTime y LocalDateTime
+10  Trabajando con el método de fábrica of
+11  Manipulación de fechas y horarios
+12  Uso e implementación de la clase ArrayList
+13  Encuesta intermedia
