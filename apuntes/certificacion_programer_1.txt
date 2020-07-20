@@ -423,6 +423,15 @@ BREAK y CONTINUE
     - SENTENCIA INALCANZABLE: Lo posterior al return en un método
     - SENTENCIA INALCANZACLE: Cuando se tiene algo posterior a un ciclo infinito
 
+THIS
+
+    - Cuando existe ambiguedad entre una variable local y una de instancia
+    - Cuano NO SE MENCIONA THIS, quien lleva preferencia es la variable local
+      Por ejemplo en un setter cuando llega una variable, lo que hace es que le asigna el mismo valor a quien llega:
+        public void setHola(int hola) {
+            hola = hola; <--- NO LO ASIGNA A LA VARIABLE DE INSTANCIA, SI NO A LA MISMA QUE LLEGA
+        }
+
 
 ============= RECORDAR =============
 
@@ -568,7 +577,7 @@ TRABAJANDO CON REFERENCIAS A OBJETOS
 1   Uso e implementación de encapsulamiento         Cambiamos los modificadores de acceso de los atributos la clase Employee, empieza a explicar el encapsulamiento
 2   Control de acceso y uso de private              Explicación de private y como no se puede acceder, tambien puso una tablita para los modificadores publicos y privados
 3   Métodos Get y Set                               Cambiamos las clases que usamos al principio (Employee, Department, etc) cambiando los atributos a encapsulados, sencillo
-4   Utilizar la palabra reservada this
+4   Utilizar la palabra reservada this              Explicación larguisima de como se utiliza el this, lo explico en su pizarron no hicimos ejercicio, uso heap y stack para explicar
 5   Trabajar con referencias a Objetos
 6   Resolver NullPointerException
 7   Diferenciar entre Paso por Valor y Paso por
