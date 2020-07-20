@@ -432,6 +432,10 @@ THIS
             hola = hola; <--- NO LO ASIGNA A LA VARIABLE DE INSTANCIA, SI NO A LA MISMA QUE LLEGA
         }
 
+PASO POR VALOR Y PASO POR REFERENCIA
+
+    - Cuando mandas una variable primitiva a un método SE COPIA EL VALOR, no la referencia
+    - Cuando mandas una variable de Instancia a un método SE MANDA LA REFERENCIA
 
 ============= RECORDAR =============
 
@@ -580,7 +584,7 @@ TRABAJANDO CON REFERENCIAS A OBJETOS
 4   Utilizar la palabra reservada this              Explicación larguisima de como se utiliza el this, lo explico en su pizarron no hicimos ejercicio, uso heap y stack para explicar
 5   Trabajar con referencias a Objetos              Nos enseño como agregar objetos dentro de otros, estuvo aburrido
 6   Resolver NullPointerException                   Nos enseña como settear los objetos porque como se llamaban en el getDetail mandaban nullpointer, tambien agrego una validación en getDetail
-7   Diferenciar entre Paso por Valor y Paso por
+7   Diferenciar entre Paso por Valor y Paso por     Paso por valor cuando es una variable primitiva, Paso por referencia cuando es un objeto
     Referencia
 8   Conocer cuando los objetos son elegibles por
     el Garbage Collector
