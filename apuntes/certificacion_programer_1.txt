@@ -578,7 +578,7 @@ TRABAJANDO CON REFERENCIAS A OBJETOS
 2   Control de acceso y uso de private              Explicación de private y como no se puede acceder, tambien puso una tablita para los modificadores publicos y privados
 3   Métodos Get y Set                               Cambiamos las clases que usamos al principio (Employee, Department, etc) cambiando los atributos a encapsulados, sencillo
 4   Utilizar la palabra reservada this              Explicación larguisima de como se utiliza el this, lo explico en su pizarron no hicimos ejercicio, uso heap y stack para explicar
-5   Trabajar con referencias a Objetos
+5   Trabajar con referencias a Objetos              Nos enseño como agregar objetos dentro de otros, estuvo aburrido
 6   Resolver NullPointerException
 7   Diferenciar entre Paso por Valor y Paso por
     Referencia
