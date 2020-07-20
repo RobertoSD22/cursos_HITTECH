@@ -567,7 +567,7 @@ TRABAJANDO CON REFERENCIAS A OBJETOS
 
 1   Uso e implementación de encapsulamiento         Cambiamos los modificadores de acceso de los atributos la clase Employee, empieza a explicar el encapsulamiento
 2   Control de acceso y uso de private              Explicación de private y como no se puede acceder, tambien puso una tablita para los modificadores publicos y privados
-3   Métodos Get y Set
+3   Métodos Get y Set                               Cambiamos las clases que usamos al principio (Employee, Department, etc) cambiando los atributos a encapsulados, sencillo
 4   Utilizar la palabra reservada this
 5   Trabajar con referencias a Objetos
 6   Resolver NullPointerException
