@@ -458,6 +458,9 @@ STRING
     - toUpperCase()                     regresa: nueva cadena en mayusculas
     - trim()                            regresa: nueva cadena sin espacios a los lados
 
+    - SE PUEDE USAR = NEW String() !!!!!!!!!!!!!!!!!!!!!!! y pasarle en los corchetes el valor
+    - Cuando se hace el NEW, se crea una cadena de texto fuera del POOL STRING
+
 COMPARAR STRING
 
     - Se puede hacer con el ==  ESTE COMPARA LAS REFERENCIAS!!! no el contenido
@@ -631,7 +634,7 @@ TRABAJANDO CON API´s JAVA
 1   Utilizar la clase String                        Los métodos más importantes de string, seguro vienen en el examen, hay que practicarlos
 2   Probar la igualdad de String 
     mediante == y equals()                          Muy buena clase, como se comparan Strings con == o con equals, POOL STRING (nuevo conocimiento) y LITERALES (lo que va entre comilla doble)
-3   Diferenciar entre Objeto y Literal String
+3   Diferenciar entre Objeto y Literal String       Se puede usar New String() para declarar un String
 4   Aprender a utilizar la documentación de la API
     de Java
 5   Utilizar la clase StringBuilder
