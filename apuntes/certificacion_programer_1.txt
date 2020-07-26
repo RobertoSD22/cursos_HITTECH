@@ -458,7 +458,23 @@ STRING
     - toUpperCase()                     regresa: nueva cadena en mayusculas
     - trim()                            regresa: nueva cadena sin espacios a los lados
 
+COMPARAR STRING
 
+    - Se puede hacer con el ==  ESTE COMPARA LAS REFERENCIAS!!! no el contenido
+    - Se puede hacer con equals ESTE COMPARA EL CONTENIDO, no la referencia
+    - Cuando es: String a = "Hola" y String b = "Ho" + "la", los ve como iguales
+    - Pero cuando es: String a = (c = "Ho") + (d = "la") y String b = "Hola", ahi los ve diferentes
+
+    - Cuando una cadena de texto es creada SIN literales, entonces se genera una nueva referencia con el valor de las variables que la componen Y QUE NO vive en POOL STRING
+
+LITERALES
+
+    - " " son los valores que se declaran entre comillas dobles
+
+POOL STRING
+
+    - Vive en heap
+    - SI YA HAY UN VALOR "Hola" por ejemplo y otra variable se le asigna el mismo valor NO CREA una nueva referencia, la asigna a la misma!!!! :O (IMAGEN 1)
 
 ============= RECORDAR =============
 
@@ -614,7 +630,7 @@ TRABAJANDO CON REFERENCIAS A OBJETOS
 TRABAJANDO CON API´s JAVA
 1   Utilizar la clase String                        Los métodos más importantes de string, seguro vienen en el examen, hay que practicarlos
 2   Probar la igualdad de String 
-    mediante == y equals()
+    mediante == y equals()                          Muy buena clase, como se comparan Strings con == o con equals, POOL STRING (nuevo conocimiento) y LITERALES (lo que va entre comilla doble)
 3   Diferenciar entre Objeto y Literal String
 4   Aprender a utilizar la documentación de la API
     de Java
