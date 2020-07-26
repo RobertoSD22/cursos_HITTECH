@@ -494,6 +494,16 @@ CLASES WRAPPER
     - TODO lo que aplica con un PRIMITIVO se puede aplicar con un graper, como Integer a = 1; a++;
     - VENTAJA de usar wrappers, que puedes usar métodos sobre las variables
 
+BOXING
+
+    - Cuando un valor primitivo es ENVUELTO en una clase wrapper
+    - Se le llama AUTOBOXING porque Java lo hace automaticamente cuando se le asigna un valor primitivo
+
+UNBOXING
+
+    - Cuando un valor de una variable WRAPPER es seteado a un dato primitivo
+    - AUTOUNBOXING cuando el valor se le pasa a un primitivo
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -655,8 +665,8 @@ TRABAJANDO CON API´s JAVA
 5   Utilizar la clase StringBuilder                 Es MUTABLE, lo que quiere decir que no necesita recibir el valor de retorno, cambia por dentro, nos enseño vario metodos como REVERSE que voltea la cadena
 6   Utilizar las clases Wrapper (Byte, Short,       Clases Wrapper, se utilizan en base a los primitivos para obtener el beneficio de tratarlos como objetos y usar sus métodos, estuvo sencillo, se inicializan en null
     Integer, Long, Float, Double, Boolean, Charanter)
-7   Conocer los conceptos de Boxing y Unboxing entre
-    primitivos y Wrapper
+7   Conocer los conceptos de Boxing y Unboxing      Conceptos de BOXING y UNBOXING, boxin cuando le pasas un primitivo a un wrapper, y unboxing cuando le pasas un wrapper a un primitivo
+    entre primitivos y Wrapper
 8   Manejo de fechas y horarios
 9   LocalDate, LocalTime y LocalDateTime
 10  Trabajando con el método de fábrica of
