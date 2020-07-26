@@ -56,3 +56,9 @@ RETURN
 JAVA 7
 
 - A partir de Java 7 los números se pueden separar con _ sin afectar el valor, por ejemplo: 1_000_000 sigue siendo 1 millón
+
+
+JAVA 8
+
+- A partir de Java 8 se integran las clases LocalDate, LocalTime, LocalDateTime, Period y DateTimeFormatter que permite un mejor
+  manejo de las fechas, ya no mas DATE y CALENDAR

@@ -504,6 +504,19 @@ UNBOXING
     - Cuando un valor de una variable WRAPPER es seteado a un dato primitivo
     - AUTOUNBOXING cuando el valor se le pasa a un primitivo
 
+FECHAS Y HORARIOS
+
+    - En java 8 se mejora el uso de fechas, ya no mas DATE y CALENDAR
+    - Ahora se usa:
+        ~ LocalDate             Solo trabajas con Fecha
+        ~ LocalDateTime         Fecha y tiempo
+        ~ LocalTime             Solo tiempo
+        ~ Period                Periodo de tiempo de 1 semana, 1 mes, cosas similares
+        ~ DateTimeFormatter     
+
+        ENUMS: DayOfWeek
+               Month
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -667,7 +680,8 @@ TRABAJANDO CON API´s JAVA
     Integer, Long, Float, Double, Boolean, Charanter)
 7   Conocer los conceptos de Boxing y Unboxing      Conceptos de BOXING y UNBOXING, boxin cuando le pasas un primitivo a un wrapper, y unboxing cuando le pasas un wrapper a un primitivo
     entre primitivos y Wrapper
-8   Manejo de fechas y horarios
+8   Manejo de fechas y horarios                     Comenta acerca de las clases LocalDateTime, LocalDate, LocalTime, Period y DateTimeFormatter que vienen a mejorar la funcionalidad de DATE y CALENDAR 
+                                                    (NO HICIMOS NINGUN EJERCICIO, duro poco el video)
 9   LocalDate, LocalTime y LocalDateTime
 10  Trabajando con el método de fábrica of
 11  Manipulación de fechas y horarios
