@@ -479,6 +479,13 @@ POOL STRING
     - Vive en heap
     - SI YA HAY UN VALOR "Hola" por ejemplo y otra variable se le asigna el mismo valor NO CREA una nueva referencia, la asigna a la misma!!!! :O (IMAGEN 1)
 
+STRINGBUILDER
+
+    - Es una clase MUTABLE, lo que quiere decir que no es como String que debes regresar y recibir el valor para que cambie.
+    - FORZOSAMENTE utiliza NEW para inicializar
+    - APPEND es igual a CONTACT de String, pero no es necesario reciribir el valor que regresa (AGREGAR EL VALOR AL FINAL DE LA CADENA)
+    - INSERT, concatena una cadena en el indice posterior al que se le pasa como parametro, ESTE INDICE DEBE EXISTIR si no manda error de EJECUCIÓN
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -637,7 +644,7 @@ TRABAJANDO CON API´s JAVA
 3   Diferenciar entre Objeto y Literal String       Se puede usar New String() para declarar un String
 4   Aprender a utilizar la documentación de la API  
     de Java                                         Enseño la interfaz del API de java, nada nuevo.
-5   Utilizar la clase StringBuilder
+5   Utilizar la clase StringBuilder                 Es MUTABLE, lo que quiere decir que no necesita recibir el valor de retorno, cambia por dentro, nos enseño vario metodos como REVERSE que voltea la cadena
 6   Utilizar las clases Wrapper (Byte, Short,
     Integer, Long, Float, Double, Boolean, Charanter)
 7   Conocer los conceptos de Boxing y Unboxing entre
