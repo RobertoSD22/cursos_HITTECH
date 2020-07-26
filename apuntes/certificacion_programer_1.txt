@@ -517,6 +517,11 @@ FECHAS Y HORARIOS
         ENUMS: DayOfWeek
                Month
 
+    - NO se les genera una instancia con NEW, usan métodos estaticos, a esta manera de instanciar se le llama "patron de diseño FACTORY" ejemplo:
+        LocalDate date = LocalDate.now();
+
+    
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -682,7 +687,7 @@ TRABAJANDO CON API´s JAVA
     entre primitivos y Wrapper
 8   Manejo de fechas y horarios                     Comenta acerca de las clases LocalDateTime, LocalDate, LocalTime, Period y DateTimeFormatter que vienen a mejorar la funcionalidad de DATE y CALENDAR 
                                                     (NO HICIMOS NINGUN EJERCICIO, duro poco el video)
-9   LocalDate, LocalTime y LocalDateTime
+9   LocalDate, LocalTime y LocalDateTime            Ejercicio de como utilizar las 3 clases prinicipales (No dijo nada de Period o DateTimeFormatter)
 10  Trabajando con el método de fábrica of
 11  Manipulación de fechas y horarios
 12  Uso e implementación de la clase ArrayList
