@@ -486,6 +486,14 @@ STRINGBUILDER
     - APPEND es igual a CONTACT de String, pero no es necesario reciribir el valor que regresa (AGREGAR EL VALOR AL FINAL DE LA CADENA)
     - INSERT, concatena una cadena en el indice posterior al que se le pasa como parametro, ESTE INDICE DEBE EXISTIR si no manda error de EJECUCIÓN
 
+CLASES WRAPPER
+
+    - NO NECESITAN que se les haga un NEW al ser una clase especial
+    - Hay una por cada dato primitivo
+    - Se les llama "ENVOLTORIOS" porque nos permiten utilizar a los datos primitivos como objetos
+    - TODO lo que aplica con un PRIMITIVO se puede aplicar con un graper, como Integer a = 1; a++;
+    - VENTAJA de usar wrappers, que puedes usar métodos sobre las variables
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -645,7 +653,7 @@ TRABAJANDO CON API´s JAVA
 4   Aprender a utilizar la documentación de la API  
     de Java                                         Enseño la interfaz del API de java, nada nuevo.
 5   Utilizar la clase StringBuilder                 Es MUTABLE, lo que quiere decir que no necesita recibir el valor de retorno, cambia por dentro, nos enseño vario metodos como REVERSE que voltea la cadena
-6   Utilizar las clases Wrapper (Byte, Short,
+6   Utilizar las clases Wrapper (Byte, Short,       Clases Wrapper, se utilizan en base a los primitivos para obtener el beneficio de tratarlos como objetos y usar sus métodos, estuvo sencillo, se inicializan en null
     Integer, Long, Float, Double, Boolean, Charanter)
 7   Conocer los conceptos de Boxing y Unboxing entre
     primitivos y Wrapper
