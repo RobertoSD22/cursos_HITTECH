@@ -635,8 +635,8 @@ TRABAJANDO CON API´s JAVA
 2   Probar la igualdad de String 
     mediante == y equals()                          Muy buena clase, como se comparan Strings con == o con equals, POOL STRING (nuevo conocimiento) y LITERALES (lo que va entre comilla doble)
 3   Diferenciar entre Objeto y Literal String       Se puede usar New String() para declarar un String
-4   Aprender a utilizar la documentación de la API
-    de Java
+4   Aprender a utilizar la documentación de la API  
+    de Java                                         Enseño la interfaz del API de java, nada nuevo.
 5   Utilizar la clase StringBuilder
 6   Utilizar las clases Wrapper (Byte, Short,
     Integer, Long, Float, Double, Boolean, Charanter)
