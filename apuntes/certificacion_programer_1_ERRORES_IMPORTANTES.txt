@@ -57,8 +57,11 @@ JAVA 7
 
 - A partir de Java 7 los números se pueden separar con _ sin afectar el valor, por ejemplo: 1_000_000 sigue siendo 1 millón
 
+- A partir de Java 7 Para el caso de las tipificaciones, cuando se inicializa un objeto con un tipo de dato, NO ES NECESARIO 
+  tipificarlo del otro lado, ejemplo: ArrayList<String> myList = new ArrayList<>();  <--- en los segundos "diamantes" ya no trae el tipo de dato
 
 JAVA 8
 
 - A partir de Java 8 se integran las clases LocalDate, LocalTime, LocalDateTime, Period y DateTimeFormatter que permite un mejor
   manejo de las fechas, ya no mas DATE y CALENDAR
+
