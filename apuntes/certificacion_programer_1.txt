@@ -511,7 +511,7 @@ FECHAS Y HORARIOS
         ~ LocalDate             Solo trabajas con Fecha
         ~ LocalDateTime         Fecha y tiempo
         ~ LocalTime             Solo tiempo
-        ~ Period                Periodo de tiempo de 1 semana, 1 mes, cosas similares
+        ~ Period                Periodo de tiempo de 1 semana, 1 mes, cosas similares (Se le agrega al LocalDate o LocalDateTime para que genere una nueva fecha)
         ~ DateTimeFormatter     
 
         ENUMS: DayOfWeek
@@ -697,5 +697,6 @@ TRABAJANDO CON API´s JAVA
 9   LocalDate, LocalTime y LocalDateTime            Ejercicio de como utilizar las 3 clases prinicipales (No dijo nada de Period o DateTimeFormatter)
 10  Trabajando con el método de fábrica of          Método OF, para pasarle una fecha con valores de nosotros, una fecha especifica, tambien se actualizo el ejercicio de Employee
 11  Manipulación de fechas y horarios               Métodos PLUS...algo, MINUS...algo, para quitar y poner dias, meses, años, minutos, segundos, etc
-12  Uso e implementación de la clase ArrayList
-13  Encuesta intermedia
+12  Trabajando con Periodos                         Ejercicio rapido con periodo, esta muy bueno, para sumarle un periodo en especifico a la fecha y que te de una nueva fecha
+13  Uso e implementación de la clase ArrayList
+14  Encuesta intermedia
