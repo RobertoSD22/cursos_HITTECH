@@ -548,6 +548,17 @@ PERM GENERATOR
 
     - Es donde se guardan las variables STATICAS
 
+BLOQUE STATIC
+
+    REGLAS:
+
+    1.- Dentro de un bloque estatico podemos acceder a miembros (método o variables) estaticos sin una instancia
+        pero para miembros no estaticos necesitamos una instancia
+    2.- Dentro de un bloque no estatico podemos acceder a miembros (método o variables) estaticos y no estaticos
+
+    - Los métodos static pueden llamar otros métodos static pero si no lo es, se tiene que generar una instanacia de la clase que contiene ese método normal y despues llamarlo
+    - Los métodos staticos se deben llamar con CLASE.Método , NO con la instancia o instancias de este
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -725,9 +736,9 @@ MÉTODOS Y CONSTRUCTORES
 
 1   Uso e implementación de variables static        Buenísima clase!!,todas las variables static guardan el mismo valor para todas las instancias!!!, eso quiere decir que si se la planchan se queda con el ultimo valor
                                                     PERM GEN o PERM GENERATOR!!!! (memoria para static)
-2   Bloques estáticos y reglas sintácticas
-    para el uso de variables static
-3   Sobrecarga de métodos
+2   Bloques estáticos y reglas sintácticas          Bloquees no static pueden acceder a ambas
+    para el uso de variables static                 Bloques statics deben ser statics los métodos o variables si no se tiene que generar una instancia del método o variable que se quiera acceder
+3   Sobrecarga de métodos                           
 4   Argumentos variables
 5   Definición y uso de constructores, constructor
     por default y sobrecarga de constructores
