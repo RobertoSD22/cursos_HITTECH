@@ -132,6 +132,8 @@ VARIABLES
                                     No llevan un modificador de acceso si se lo agregan DA UN ERROR DE COMPILACION                                                                                  IMPORTANTEEEEEEEEEE
                                     Deben estar inicializadas antes de ser utilizadas, porque si la usas si inicializar DA UN ERROR DE COMPILACION                                                  IMPORTANTEEEEEEEEEE
 
+        ~ Variables de Clase        Cuando se le pone el modificador de "Static"
+
     VARIABLES DE ACUERDO AL TIPO DE DATO
 
         ~ Variables de REFERENCIA   El tipo de dato es una clase
@@ -535,7 +537,16 @@ ARRAYLIST
     - Si no se tipifica se puede guardar cualquier dato
     - myList.add(0, "Ming"); <--- RECORRE los datos, no como en el array donde lo reemplaza
     - myList.set(0, "Ming"); <--- REEMPLAZA
+
+
+STATIC
+
+    - Se le conoce como MODIFICADOR porque altera el estado
+    - Cuando le agregas STATIC a una variable deja de ser de instancia para volverse DE CLASE, por lo que todas sus instancias tendran el mismo valor!!!
     
+PERM GENERATOR
+
+    - Es donde se guardan las variables STATICAS
 
 ============= RECORDAR =============
 
@@ -707,4 +718,20 @@ TRABAJANDO CON API´s JAVA
 11  Manipulación de fechas y horarios               Métodos PLUS...algo, MINUS...algo, para quitar y poner dias, meses, años, minutos, segundos, etc
 12  Trabajando con Periodos                         Ejercicio rapido con periodo, esta muy bueno, para sumarle un periodo en especifico a la fecha y que te de una nueva fecha
 13  Uso e implementación de la clase ArrayList      Ejericio con Arraylist, porque ya no se usa <> despues de declararlo (del lado de la inicialización), metodo add y set
-14  Encuesta intermedia
+14  Encuesta intermedia                             Solo una encuesta del curso
+
+
+MÉTODOS Y CONSTRUCTORES
+
+1   Uso e implementación de variables static        Buenísima clase!!,todas las variables static guardan el mismo valor para todas las instancias!!!, eso quiere decir que si se la planchan se queda con el ultimo valor
+                                                    PERM GEN o PERM GENERATOR!!!! (memoria para static)
+2   Bloques estáticos y reglas sintácticas
+    para el uso de variables static
+3   Sobrecarga de métodos
+4   Argumentos variables
+5   Definición y uso de constructores, constructor
+    por default y sobrecarga de constructores
+6   Uso e inicialización de variables de instancia
+    y/o de clase marcadas con final
+7   Invocación entre constructores con el 
+    uso de this
