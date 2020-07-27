@@ -517,6 +517,7 @@ FECHAS Y HORARIOS
         ENUMS: DayOfWeek
                Month
 
+    - Son clases INMUTABLES, no se modifican, se les tiene que cachar el valor de retorno
     - NO se les genera una instancia con NEW, usan métodos estaticos, a esta manera de instanciar se le llama "patron de diseño FACTORY" ejemplo:
         LocalDate date = LocalDate.now();
 
@@ -524,6 +525,8 @@ FECHAS Y HORARIOS
 
         ~ NOW       Me regresa la fecha u hora actual
         ~ OF        Yo le digo la fecha que quiero
+        ~ PLUS..    Agrega dias, meses, años, etc
+        ~ MINUS..   Quita dias, meses, años, etc
     
 
 ============= RECORDAR =============
@@ -693,6 +696,6 @@ TRABAJANDO CON API´s JAVA
                                                     (NO HICIMOS NINGUN EJERCICIO, duro poco el video)
 9   LocalDate, LocalTime y LocalDateTime            Ejercicio de como utilizar las 3 clases prinicipales (No dijo nada de Period o DateTimeFormatter)
 10  Trabajando con el método de fábrica of          Método OF, para pasarle una fecha con valores de nosotros, una fecha especifica, tambien se actualizo el ejercicio de Employee
-11  Manipulación de fechas y horarios
+11  Manipulación de fechas y horarios               Métodos PLUS...algo, MINUS...algo, para quitar y poner dias, meses, años, minutos, segundos, etc
 12  Uso e implementación de la clase ArrayList
 13  Encuesta intermedia
