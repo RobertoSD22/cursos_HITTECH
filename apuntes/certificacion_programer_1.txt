@@ -472,6 +472,10 @@ COMPARAR STRING
 
     - Cuando una cadena de texto es creada SIN literales, entonces se genera una nueva referencia con el valor de las variables que la componen Y QUE NO vive en POOL STRING
 
+    - equals compara 2 cadenas regresa true si ambas cadenas son iguales en cuanto a mayúsculas y minúsculas, equalsIgnoreCase compara 2 cadenas y 
+      regresa true si ambas cadenas son iguales sin importar mayúsculas y minúsculas, por ejemplo "Hola" "holA" con equals sería el resultado false y 
+      con equalsignoreCase sería true.
+
 LITERALES
 
     - " " son los valores que se declaran entre comillas dobles
@@ -579,6 +583,13 @@ ARGUENTOS VARIABLES
     - Si puede recibir argumentos de otro tipo
     - Los argumentos variables deben ir AL FINAL del método como parametros, no pueden ir en medio ni al principio
     - Al final se convierte en un array[] y se maneja como uno (por eso el ejemplo de main)
+
+CONSTRUCTORES
+
+    - No llevan un tipo de retorno
+    - Su nombre es igual que la clase (o identificador)
+    - Si lo sobreescribes se pierde el constructor por defecto
+    - BUENA PRACTICA, dejar un constructor sin argumentos
 
 ============= RECORDAR =============
 
@@ -761,7 +772,7 @@ MÉTODOS Y CONSTRUCTORES
     para el uso de variables static                 Bloques statics deben ser statics los métodos o variables si no se tiene que generar una instancia del método o variable que se quiera acceder
 3   Sobrecarga de métodos                           Muy buena clase, el parametro de retorno y los modificadores no influyen en la sobre carga, solo el nombre y los argumentos de entrada IMPORTANTE
 4   Argumentos variables                            Otra clase muy buena, no conocia los argumentos variables, son un array[] al final, y deben ir al ultimo de los parametros que se les pasa a un método
-5   Definición y uso de constructores, constructor
+5   Definición y uso de constructores, constructor  Buena clase, pero no dijo nada de los modificadores, solo que cuando creas un constructor el de default muere y se puede sobrecargar
     por default y sobrecarga de constructores
 6   Uso e inicialización de variables de instancia
     y/o de clase marcadas con final
