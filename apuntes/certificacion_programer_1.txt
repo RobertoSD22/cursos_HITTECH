@@ -571,6 +571,15 @@ SOBRECARGA DE MÉTODOS
         ~ modificadores de acceso
         ~ los parametros de retorno
 
+
+ARGUENTOS VARIABLES
+
+    - llevan 3 puntitos
+    - Se pueden cargar SOLO 1 argumento variable por método
+    - Si puede recibir argumentos de otro tipo
+    - Los argumentos variables deben ir AL FINAL del método como parametros, no pueden ir en medio ni al principio
+    - Al final se convierte en un array[] y se maneja como uno (por eso el ejemplo de main)
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -751,7 +760,7 @@ MÉTODOS Y CONSTRUCTORES
 2   Bloques estáticos y reglas sintácticas          Bloquees no static pueden acceder a ambas
     para el uso de variables static                 Bloques statics deben ser statics los métodos o variables si no se tiene que generar una instancia del método o variable que se quiera acceder
 3   Sobrecarga de métodos                           Muy buena clase, el parametro de retorno y los modificadores no influyen en la sobre carga, solo el nombre y los argumentos de entrada IMPORTANTE
-4   Argumentos variables
+4   Argumentos variables                            Otra clase muy buena, no conocia los argumentos variables, son un array[] al final, y deben ir al ultimo de los parametros que se les pasa a un método
 5   Definición y uso de constructores, constructor
     por default y sobrecarga de constructores
 6   Uso e inicialización de variables de instancia
