@@ -559,6 +559,18 @@ BLOQUE STATIC
     - Los métodos static pueden llamar otros métodos static pero si no lo es, se tiene que generar una instanacia de la clase que contiene ese método normal y despues llamarlo
     - Los métodos staticos se deben llamar con CLASE.Método , NO con la instancia o instancias de este
 
+SOBRECARGA DE MÉTODOS
+
+    - Métodos con el mismo nombre y argumentos diferentes (si tienen los mismos argumentos es error de compilación)
+    - 3 aspectos para ser diferentes:
+        ~ Nombre del método
+        ~ Cantidad de parametros que recibe
+        ~ Tipos de parametros que recibe
+        ~ Ordern de los parametros
+    - NO CUENTAN:
+        ~ modificadores de acceso
+        ~ los parametros de retorno
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -738,7 +750,7 @@ MÉTODOS Y CONSTRUCTORES
                                                     PERM GEN o PERM GENERATOR!!!! (memoria para static)
 2   Bloques estáticos y reglas sintácticas          Bloquees no static pueden acceder a ambas
     para el uso de variables static                 Bloques statics deben ser statics los métodos o variables si no se tiene que generar una instancia del método o variable que se quiera acceder
-3   Sobrecarga de métodos                           
+3   Sobrecarga de métodos                           Muy buena clase, el parametro de retorno y los modificadores no influyen en la sobre carga, solo el nombre y los argumentos de entrada IMPORTANTE
 4   Argumentos variables
 5   Definición y uso de constructores, constructor
     por default y sobrecarga de constructores
