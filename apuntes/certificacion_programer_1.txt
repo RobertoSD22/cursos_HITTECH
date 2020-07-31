@@ -38,6 +38,8 @@ MODIFICADOR DE ACCESO
     - Decide quien o que ve nuestra clase, método o atributo
     - Hay 4 tipos de modificadores de acceso: public, private, protected y package
 
+    - static, final y los modificadores de acceso deben ir previos al tipo de dato en una variable
+
     UML
 
         +   Público
@@ -591,6 +593,34 @@ CONSTRUCTORES
     - Si lo sobreescribes se pierde el constructor por defecto
     - BUENA PRACTICA, dejar un constructor sin argumentos
 
+BLOQUE ANONIMO
+
+    - Se declara: {}
+    - Se utiliza para ejecutar sentencias previas a la ejecución del CONSTRUCTOR
+    - Se ejecutara antes por cada uno de los constructores que tengas
+
+BLOQUE ANONIMO ESTATICO
+
+    - Igual que el anterior solo lleva static antes de las {}
+    - Solo se ejecuta una vez, no por cada constructor
+
+FINAL
+
+    - Si es una variable con el modificador FINAL debe estar inicializada antes de los constuctores
+        ~ Se puede hacer en la DECLARACIÓN
+        ~ En un BLOQUE ANONIMO
+        ~ Hacerlo en el CONSTRUCTOR (en TODOS los constructores que haya)
+    - Solo debe ser en un lugar la declaración no en varias!
+    - Las variables con el modificador final dejan de ser variables y se convierten en CONSTANTES
+    - Las constantes se pueden incrementar mientras sea dentro de las 3 primeras opciones
+
+FINAL STATIC
+
+    - Si es una variable con el modificador FINAL y STATIC debe estar inicializada antes de los constuctores
+        ~ Se puede hacer en la DECLARACIÓN
+        ~ En un BLOQUE ANONIMO ESTATICO
+
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -774,7 +804,7 @@ MÉTODOS Y CONSTRUCTORES
 4   Argumentos variables                            Otra clase muy buena, no conocia los argumentos variables, son un array[] al final, y deben ir al ultimo de los parametros que se les pasa a un método
 5   Definición y uso de constructores, constructor  Buena clase, pero no dijo nada de los modificadores, solo que cuando creas un constructor el de default muere y se puede sobrecargar
     por default y sobrecarga de constructores
-6   Uso e inicialización de variables de instancia
+6   Uso e inicialización de variables de instancia  Constantes FINAL, FINAL STATIC, BLOQUE ANONIMO, BLOQUE ANONIMO STATIC, muy buena clase
     y/o de clase marcadas con final
 7   Invocación entre constructores con el 
     uso de this
