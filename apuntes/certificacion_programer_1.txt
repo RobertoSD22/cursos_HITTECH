@@ -620,6 +620,13 @@ FINAL STATIC
         ~ Se puede hacer en la DECLARACIÓN
         ~ En un BLOQUE ANONIMO ESTATICO
 
+INVOCACION ENTRE CONSTRUCTORES
+
+    - Se utiliza this() <-- sin punto, y con los parametros del otro constructor
+    - REGLAS:
+        1- Solo puedes usar el llamado this() dentro de otro constructor
+        2- No se puede usar el nombre de la clase para llamar al constructor, solo THIS
+        3- Debe ser la primera sentencia dentro del otro constructor que lo invoca
 
 ============= RECORDAR =============
 
@@ -806,5 +813,5 @@ MÉTODOS Y CONSTRUCTORES
     por default y sobrecarga de constructores
 6   Uso e inicialización de variables de instancia  Constantes FINAL, FINAL STATIC, BLOQUE ANONIMO, BLOQUE ANONIMO STATIC, muy buena clase
     y/o de clase marcadas con final
-7   Invocación entre constructores con el 
+7   Invocación entre constructores con el           Uso de this() para invocar constructores dentro de otros constructores, REGLAS para la invocación
     uso de this

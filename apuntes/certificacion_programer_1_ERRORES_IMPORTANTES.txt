@@ -52,6 +52,9 @@ RETURN
 - Cuando esta declarado dentro de un método, lo que se declara posterior manda error de                                                             COMPILACIÓN
   SE LLAMAN SENTENCIAS INALCANZABLES
 
+INVOCACION DE CONSTRUCTORES
+- Cuando se invocan dos o mas constructores entre ellos (uno llama al otro y viceversa), manda un erro de                                           COMPILACIÓN
+
 ======================== ACTUALIZACIONES ========================
 JAVA 7
 
