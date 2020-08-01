@@ -628,6 +628,15 @@ INVOCACION ENTRE CONSTRUCTORES
         2- No se puede usar el nombre de la clase para llamar al constructor, solo THIS
         3- Debe ser la primera sentencia dentro del otro constructor que lo invoca
 
+
+HERENCIA
+
+    - Solo hay herencia simple para clases, que es que no puede heredar de más de una clase
+    - Los CONSTRUCTORES no se heredan
+    - Java coloca un extends a la clase Object de manera IMPLICITA
+    - CLASE SUPERIOR: De la que hereda
+    - SUBCLASE: La que esta heredando
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -819,7 +828,7 @@ MÉTODOS Y CONSTRUCTORES
 HERENCIA
 
 1   Descripción general de la herencia              Una clase muy leve de explicación de porque se usa la herencia, pero no hicimos ningún ejercicio, solo lo platico y movio un poco la clase Employee
-2   Uso de la palabra reservada extends para 
+2   Uso de la palabra reservada extends para        Ahora si hubo un ejercicio, concepto de herencia, la herencia es simple (no se puede heredar de varias clases), SUBCLASE y CLASE SUPERIOR, herencia por default de Object
     implementar herencia
 3   Utilizar la palabra reservada super para
     invocar constructores
