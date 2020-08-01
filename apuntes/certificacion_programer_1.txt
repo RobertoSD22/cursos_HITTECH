@@ -632,10 +632,16 @@ INVOCACION ENTRE CONSTRUCTORES
 HERENCIA
 
     - Solo hay herencia simple para clases, que es que no puede heredar de más de una clase
-    - Los CONSTRUCTORES no se heredan
     - Java coloca un extends a la clase Object de manera IMPLICITA
     - CLASE SUPERIOR: De la que hereda
     - SUBCLASE: La que esta heredando
+
+SUPER
+
+    - Hay miembros de la clase que no se heredan
+    - Los CONSTRUCTORES no se heredan
+    - Si la clase padre NO tiene un constructor SIN ARGUMENTOS, va a marcar error de compilación cuando extiendan, porque va a querer llamar al constructor sin argumentos
+    - TIENE QUE SER la PRIMERA sentencia en la linea que se esta invocando
 
 ============= RECORDAR =============
 
@@ -830,8 +836,8 @@ HERENCIA
 1   Descripción general de la herencia              Una clase muy leve de explicación de porque se usa la herencia, pero no hicimos ningún ejercicio, solo lo platico y movio un poco la clase Employee
 2   Uso de la palabra reservada extends para        Ahora si hubo un ejercicio, concepto de herencia, la herencia es simple (no se puede heredar de varias clases), SUBCLASE y CLASE SUPERIOR, herencia por default de Object
     implementar herencia
-3   Utilizar la palabra reservada super para
-    invocar constructores
+3   Utilizar la palabra reservada super para        Como funciona la clase super a la hora de heredar, por buena practica usar constructores vacios cuando se sobreescriben, SUPER() debe ser la primera linea de código,
+    invocar constructores                           errores que ocurren cuando sobreescriben un constructor y no dejan el vacio
 4   Control de acceso, package y protected
 5   Uso, implementación y reglas de la 
     sobre-escritura de métodos en Java
