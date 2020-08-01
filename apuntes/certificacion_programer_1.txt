@@ -815,3 +815,21 @@ MÉTODOS Y CONSTRUCTORES
     y/o de clase marcadas con final
 7   Invocación entre constructores con el           Uso de this() para invocar constructores dentro de otros constructores, REGLAS para la invocación
     uso de this
+
+HERENCIA
+
+1   Descripción general de la herencia              Una clase muy leve de explicación de porque se usa la herencia, pero no hicimos ningún ejercicio, solo lo platico y movio un poco la clase Employee
+2   Uso de la palabra reservada extends para 
+    implementar herencia
+3   Utilizar la palabra reservada super para
+    invocar constructores
+4   Control de acceso, package y protected
+5   Uso, implementación y reglas de la 
+    sobre-escritura de métodos en Java
+6   Implementar polimorfismo 
+    y conocer sus beneficios
+7   Uso de cast entre objetos
+8   Sobre-escritura y uso del método toString de
+    la clase Object
+9   Uso e implementación de clases abstractas
+10  Reglas de sintaxis en clases abstractas
