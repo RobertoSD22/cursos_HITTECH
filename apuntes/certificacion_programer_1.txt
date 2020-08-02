@@ -838,7 +838,7 @@ HERENCIA
     implementar herencia
 3   Utilizar la palabra reservada super para        Como funciona la clase super a la hora de heredar, por buena practica usar constructores vacios cuando se sobreescriben, SUPER() debe ser la primera linea de código,
     invocar constructores                           errores que ocurren cuando sobreescriben un constructor y no dejan el vacio
-4   Control de acceso, package y protected
+4   Control de acceso, package y protected          Modificador DEFAULT es para la clase y el mismo paquete, modificador PROTECTED es para la clase, el paquete y las subclases
 5   Uso, implementación y reglas de la 
     sobre-escritura de métodos en Java
 6   Implementar polimorfismo 
