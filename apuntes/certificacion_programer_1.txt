@@ -642,6 +642,17 @@ SUPER
     - Los CONSTRUCTORES no se heredan
     - Si la clase padre NO tiene un constructor SIN ARGUMENTOS, va a marcar error de compilación cuando extiendan, porque va a querer llamar al constructor sin argumentos
     - TIENE QUE SER la PRIMERA sentencia en la linea que se esta invocando
+    - Se puede usar super.metodo para obtener métodos o atributos de la clase padre
+
+SOBREESCRITURA
+
+    - Solo se da en subclases
+    - Es el cambio de la implementación de la funcionalidad de un método dentro de una subclase
+    - El método sobreescrito debe tener el mismo nivel de acceso o uno mas abierto que el de su padre Y PUEDE SER CUALQUIERA!!!!!! :O no marca error!!!!!!1                                         IMPORTANTEEEEEEEEEE
+    - @Override es una etiqiueta de java!!!! sirve sobretodo en documentación para decir que el método es sobreescrito (NO ES NECESARIA)
+    - @Override manda error de compilación cuando el nivel de acceso es diferente del de padre
+    - Para que exista sobreescritura deben retornar el mismo valor, si no manda error de compilación (dice que el padre esta regresando otro valor)
+    - En cuanto al valor de RETORNO, puede ser una clase que herede, por ejempo, si retorna NUMBER la clase hija puede retornar INTEGER
 
 ============= RECORDAR =============
 
@@ -839,7 +850,7 @@ HERENCIA
 3   Utilizar la palabra reservada super para        Como funciona la clase super a la hora de heredar, por buena practica usar constructores vacios cuando se sobreescriben, SUPER() debe ser la primera linea de código,
     invocar constructores                           errores que ocurren cuando sobreescriben un constructor y no dejan el vacio
 4   Control de acceso, package y protected          Modificador DEFAULT es para la clase y el mismo paquete, modificador PROTECTED es para la clase, el paquete y las subclases
-5   Uso, implementación y reglas de la 
+5   Uso, implementación y reglas de la              Como hacer sobreescritura, clase larguisima!!!!!!!!!, 47 minutos, explica la etiqueta @Override, explica los modificadores de acceso, etc.
     sobre-escritura de métodos en Java
 6   Implementar polimorfismo 
     y conocer sus beneficios
