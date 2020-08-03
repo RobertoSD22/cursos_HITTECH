@@ -654,6 +654,22 @@ SOBREESCRITURA
     - Para que exista sobreescritura deben retornar el mismo valor, si no manda error de compilación (dice que el padre esta regresando otro valor)
     - En cuanto al valor de RETORNO, puede ser una clase que herede, por ejempo, si retorna NUMBER la clase hija puede retornar INTEGER
 
+4 PILARES DE LA PROGRAMACIÓN
+
+    - Polimorfismo
+    - Encapsulamiento
+    - Herencia
+    - Abstracción
+
+POLIMORFISMO
+
+    - Viene del vocablo poli (que significa muchas) y morfismo (que significa formas)
+    - Multiples comportamientos
+    - La caracteristica que tiene una variable de referencia de jerarquia mayor al poder comportarse de diferentes formas
+    - Se puede tener la declaración e inicialización como:
+
+        CLASE_PADRE padre = new CLASE_HIJA();
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -852,8 +868,8 @@ HERENCIA
 4   Control de acceso, package y protected          Modificador DEFAULT es para la clase y el mismo paquete, modificador PROTECTED es para la clase, el paquete y las subclases
 5   Uso, implementación y reglas de la              Como hacer sobreescritura, clase larguisima!!!!!!!!!, 47 minutos, explica la etiqueta @Override, explica los modificadores de acceso, etc.
     sobre-escritura de métodos en Java
-6   Implementar polimorfismo 
-    y conocer sus beneficios
+6   Implementar polimorfismo                        Que es el polimorfismo y como a partir de la herencia y sobreescritura tienen comportamientos diferentes, 
+    y conocer sus beneficios                        como se usa la funcionalidad: CLASE_PADRE padre = new CLASE_HIJA() (hizo mucho incapie en eso)
 7   Uso de cast entre objetos
 8   Sobre-escritura y uso del método toString de
     la clase Object

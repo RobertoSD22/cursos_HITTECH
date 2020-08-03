@@ -56,6 +56,9 @@ INVOCACION DE CONSTRUCTORES
 - Cuando se invocan dos o mas constructores entre ellos (uno llama al otro y viceversa), manda un error de                                          COMPILACIÓN
 - this() o super() deben ser la primera linea que se llama dentro del otro constructor si no manda error de                                         COMPILACIÓN
 
+SOBREESCRITURA
+- Para la etiqueta @Override se debe tener el mismo nivel de acceso que el padre, si no manda error de                                              COMPILACIÓN
+
 ======================== ACTUALIZACIONES ========================
 JAVA 7
 
