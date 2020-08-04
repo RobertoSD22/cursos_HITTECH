@@ -670,6 +670,29 @@ POLIMORFISMO
 
         CLASE_PADRE padre = new CLASE_HIJA();
 
+CAST en HERENCIA
+
+    - Cuando se necesita acceder a los atributos del hijo por alguna razón
+    - Por ejemplo: 
+        Padre padre = new Hijo();
+        Hijo hijoPostizo = (Hijo)padre;
+        hijoPostizo.setAtributoHijo(algunObjetoOvalorQueSoloTieneElHijo);
+    
+    - Se pueden hacer casting de padre a hijo y de hijo a padre (CUALQUIER SENTIDO ENNNN COMPILACIÓN)
+    - En EJECUCIÓN el cast solo puede ir de hijo a padre, así:
+        Padre padre = (Padre)hijo; 
+
+    - PON MUCHA ATENCIÓN A ESTO!!!!!!!!!!!!!!, uno manda error de ejecución y el otro no:
+
+        Papa papa = new Hijo()
+        Hijo hijo = (hijo) papa         SI SE PUEDE!!!!!!!!!!!!1
+
+        Papa papa = new Papa()
+        Hijo hijo = (hijo) papa         NO SE PUEDE!!!!!!!!!!!
+
+
+    
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -870,7 +893,7 @@ HERENCIA
     sobre-escritura de métodos en Java
 6   Implementar polimorfismo                        Que es el polimorfismo y como a partir de la herencia y sobreescritura tienen comportamientos diferentes, 
     y conocer sus beneficios                        como se usa la funcionalidad: CLASE_PADRE padre = new CLASE_HIJA() (hizo mucho incapie en eso)
-7   Uso de cast entre objetos
+7   Uso de cast entre objetos                       Una clase larguisima muy buena con muchas explicaciones siempre haciendo Cast al hijo para transformar en padre si no manda error, revisar los ejercicios que deje arriba
 8   Sobre-escritura y uso del método toString de
     la clase Object
 9   Uso e implementación de clases abstractas

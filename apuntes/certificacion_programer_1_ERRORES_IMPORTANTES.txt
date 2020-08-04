@@ -59,6 +59,9 @@ INVOCACION DE CONSTRUCTORES
 SOBREESCRITURA
 - Para la etiqueta @Override se debe tener el mismo nivel de acceso que el padre, si no manda error de                                              COMPILACIÓN
 
+CAST HERENCIA
+- Si castean de padre a hijo(por ejemplo: Hijo hijo = (Hijo)padre) manda un error de                                                                EJECUCIÓN
+
 ======================== ACTUALIZACIONES ========================
 JAVA 7
 
