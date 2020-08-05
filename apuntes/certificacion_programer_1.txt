@@ -691,7 +691,12 @@ CAST en HERENCIA
         Hijo hijo = (hijo) papa         NO SE PUEDE!!!!!!!!!!!
 
 
-    
+CLASES ABSTRACTAS
+
+    - No se pueden crear instancias de las clases abstractas
+    - Pueden o no tener métodos abstractos
+    - Si existe un método abstracto la clase debe ser abstracta
+    - Cuando heredas una clase abstracta forzonamente debes sobre escribir sus métodos
 
 ============= RECORDAR =============
 
