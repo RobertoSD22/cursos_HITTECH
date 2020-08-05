@@ -702,6 +702,10 @@ CLASES ABSTRACTAS
     - ABSTRACT Y STATIC no pueden ir juntos
     - ABSTRACT y PRIVATE no pueden ir juntos
 
+INTERFACES
+
+    - Son un contrato donde se definen acciones que van a tener la clase o clases
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -907,3 +911,21 @@ HERENCIA
     la clase Object
 9   Uso e implementación de clases abstractas       Explico con un ejercicio que son las clases abstractas, las reglas las escribi en la parte de arriba, eran 4
 10  Reglas de sintaxis en clases abstractas         Volvimos a ver las 4 reglas, pero aparte explico porque los modificadores PRIVATE, FINAL y STATIC no pueden ir juntos
+
+
+USO DE INTERFACES
+
+1   Definiendo interfaces                           Definición de que es un interface y algunos modelos que las usan (como DAO)
+2   Definir el patrón de diseño DAO
+3   Uso e implementación de interfaces y sus 
+    reglas de sintaxis
+4   Diferencia entre clases abstractas e interfaces
+5   Diferenciar entre el uso de las palabras 
+    reservadas implements y extends 
+    entre clases e interfaces
+6   Polimorfismo con interfaces
+7   Uso de los métodos default y static agregados 
+    en Java SE8 dentro de interfaces
+8   Detectar ambiguedad con el uso de constantes 
+    y métodos default cuando implementamos 
+    múltiples interfaces
