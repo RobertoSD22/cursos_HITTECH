@@ -894,7 +894,7 @@ HERENCIA
 6   Implementar polimorfismo                        Que es el polimorfismo y como a partir de la herencia y sobreescritura tienen comportamientos diferentes, 
     y conocer sus beneficios                        como se usa la funcionalidad: CLASE_PADRE padre = new CLASE_HIJA() (hizo mucho incapie en eso)
 7   Uso de cast entre objetos                       Una clase larguisima muy buena con muchas explicaciones siempre haciendo Cast al hijo para transformar en padre si no manda error, revisar los ejercicios que deje arriba
-8   Sobre-escritura y uso del método toString de
+8   Sobre-escritura y uso del método toString de    Explico como sobreescribir el método toString(), como se utilizaba y que pintaba cuando no estaba sobreescrito (sencilla la clase)
     la clase Object
 9   Uso e implementación de clases abstractas
 10  Reglas de sintaxis en clases abstractas
