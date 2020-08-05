@@ -698,6 +698,10 @@ CLASES ABSTRACTAS
     - Si existe un método abstracto la clase debe ser abstracta
     - Cuando heredas una clase abstracta forzonamente debes sobre escribir sus métodos
 
+    - ABSTRACT y FINAL no pueden ir juntos
+    - ABSTRACT Y STATIC no pueden ir juntos
+    - ABSTRACT y PRIVATE no pueden ir juntos
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -901,5 +905,5 @@ HERENCIA
 7   Uso de cast entre objetos                       Una clase larguisima muy buena con muchas explicaciones siempre haciendo Cast al hijo para transformar en padre si no manda error, revisar los ejercicios que deje arriba
 8   Sobre-escritura y uso del método toString de    Explico como sobreescribir el método toString(), como se utilizaba y que pintaba cuando no estaba sobreescrito (sencilla la clase)
     la clase Object
-9   Uso e implementación de clases abstractas
-10  Reglas de sintaxis en clases abstractas
+9   Uso e implementación de clases abstractas       Explico con un ejercicio que son las clases abstractas, las reglas las escribi en la parte de arriba, eran 4
+10  Reglas de sintaxis en clases abstractas         Volvimos a ver las 4 reglas, pero aparte explico porque los modificadores PRIVATE, FINAL y STATIC no pueden ir juntos
