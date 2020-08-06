@@ -702,13 +702,24 @@ CLASES ABSTRACTAS
     - ABSTRACT Y STATIC no pueden ir juntos
     - ABSTRACT y PRIVATE no pueden ir juntos
 
-INTERFACES
-
-    - Son un contrato donde se definen acciones que van a tener la clase o clases
-
 PATRON DE DISEÑO
 
     - Nos brindan buenas practicas en el desarrollo de aplicaciones
+
+INTERFACES
+
+    - Son un contrato donde se definen acciones que van a tener la clase o clases
+    - NO pueden ser INSTANCIADAS
+    - Las interfaces NO TIENEN CONSTRUCTORES
+    - Las interfaces tienen CONSTANTES no variables 
+    - Las constantes ya tienen PUBLIC STATIC FINAL sin que se los definas  Y NO PUEDEN CAMBIARSE (como a private o protected)
+    - Las interfaces ya tienen PUBLIC ABSTRACT en todos sus métodos y NO PUEDEN CAMBIARSE (como a private o protected o default)
+    - Las constantes tienen que ser inicializadas desde su declaración
+    - NO tienen BLOQUES ANONIMOS
+    - Las interfaces pueden tener métodos estaticos implementados: static void metodoEstaticoImplementado() {}
+    - Las interfaces pueden tener métodos default implementados: default void metodoDefaultImplementado() {}
+    - LA SOBRE ESCRITURA DE UNA INTERFAZ ES PUBBBBBBBBBBBBBBBBBBLICO NADA MÁS (no puede tener uno diferente, además en la interface por default SIEMPRE esta PUBLIC apesar de que parezca DEFAULT)
+    - Se puede tener más de una interface implementada
 
 ============= RECORDAR =============
 
@@ -921,8 +932,8 @@ USO DE INTERFACES
 
 1   Definiendo interfaces                           Definición de que es un interface y algunos modelos que las usan (como DAO), duro bien poquito 2 minutos de video
 2   Definir el patrón de diseño DAO                 Explicación del patrón de diseño DAO, estuvo algo aburrida, casi no hubo conceptos, solo explicación de funcionalida
-3   Uso e implementación de interfaces y sus 
-    reglas de sintaxis
+3   Uso e implementación de interfaces y sus        CLASESOTA, que es una interfaz, una interfaz no puede instanciar, una interfaz no puede tener métodos privados o protected, si no ponen modificador de acceso no quiere decir
+    reglas de sintaxis                              que sea default, la interfaz solo puede tener constantes, las constantes no pueden ser privadas o protected, etc.
 4   Diferencia entre clases abstractas e interfaces
 5   Diferenciar entre el uso de las palabras 
     reservadas implements y extends 
