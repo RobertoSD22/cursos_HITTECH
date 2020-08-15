@@ -47,8 +47,10 @@ MODIFICADOR DE ACCESO
         #   Protegido
             Default (vacio)
 
-    PUBLIC  - es visible para :  La misma clase (CLASE)      Para subclases (SUBCLASES)      Para otros paquetes (PAQUETE)       Desde cualquier lugar (UNIVERSO)
-    PRIVATE - es visible para :  La misma clase (CLASE)   
+    PUBLIC      - es visible para:  La misma clase (CLASE)      Para otros paquetes (PAQUETE)       Para subclases (SUBCLASES)       Desde cualquier lugar (UNIVERSO)
+    PROTECTED   - es visible para:  La misma clase (CLASE)      Para otros paquetes (PAQUETE)       Para subclases (SUBCLASES)
+    DEFAULT     - es visible para:  La misma clase (CLASE)      Para otros paquetes (PAQUETE)
+    PRIVATE     - es visible para:  La misma clase (CLASE)   
 
 BLOQUE DE CODIGO
 
@@ -187,9 +189,9 @@ IMPORT
     - Si el import viene despues de la clase o antes del package manda error de COMPILACION                                                                                                         IMPORTANTEEEEEEEEEE
 
 PACKAGE
-
     - No puede haber más de una sentencia package                                                                                                                                                   IMPORTANTEEEEEEEEEE
     - Tiene que ir al principio o da un error de COMPILACION                                                                                                                                        IMPORTANTEEEEEEEEEE
+
 PAQUETE
 
     - Es una carpeta que contiene clases java
@@ -934,7 +936,8 @@ USO DE INTERFACES
 2   Definir el patrón de diseño DAO                 Explicación del patrón de diseño DAO, estuvo algo aburrida, casi no hubo conceptos, solo explicación de funcionalida
 3   Uso e implementación de interfaces y sus        CLASESOTA, que es una interfaz, una interfaz no puede instanciar, una interfaz no puede tener métodos privados o protected, si no ponen modificador de acceso no quiere decir
     reglas de sintaxis                              que sea default, la interfaz solo puede tener constantes, las constantes no pueden ser privadas o protected, etc.
-4   Diferencia entre clases abstractas e interfaces
+4   Diferencia entre clases abstractas e interfaces Clase donde muestra las diferencias, en si, son 5, una puede tener constantes y variables y la otra no, una puede tener constructores y la otra no, 
+                                                    una puede tener metodos abstractos y no abstractos y la otra solo abstractos, uno puede tener bloques anonimos y el otro no
 5   Diferenciar entre el uso de las palabras 
     reservadas implements y extends 
     entre clases e interfaces
