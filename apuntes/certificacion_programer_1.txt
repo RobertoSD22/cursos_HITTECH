@@ -732,6 +732,10 @@ INTERFACES
         CLASE:      extends CLASE
         INTERFACE   extends INTERFACE/s
 
+ES UN
+
+    - La palabra implements se puede interpretar en clases como "ES UN".. por ejemplo, Pajaro ES UN Animal o Roberto ES UN Humano
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -950,7 +954,7 @@ USO DE INTERFACES
 5   Diferenciar entre el uso de las palabras        Muy buena clase, aprendi que las interfaces heredan de otras interfaces con EXTENDS y que las interfaces no pueden heredar de las clases ni implementar
     reservadas implements y extends 
     entre clases e interfaces
-6   Polimorfismo con interfaces
+6   Polimorfismo con interfaces                     Estaba sencilla, no hubo nada nuevo, explico de nuevo polimorfismo pero con objetos declarados en la interfaz 
 7   Uso de los métodos default y static agregados 
     en Java SE8 dentro de interfaces
 8   Detectar ambiguedad con el uso de constantes 
