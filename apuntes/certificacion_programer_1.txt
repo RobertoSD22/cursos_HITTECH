@@ -723,6 +723,15 @@ INTERFACES
     - LA SOBRE ESCRITURA DE UNA INTERFAZ ES PUBBBBBBBBBBBBBBBBBBLICO NADA MÁS (no puede tener uno diferente, además en la interface por default SIEMPRE esta PUBLIC apesar de que parezca DEFAULT)
     - Se puede tener más de una interface implementada
 
+    IMPLEMENTS y EXTENDS
+
+        - Las interfaces no pueden heredar de una clase
+        - Si pueden heredar de otras interfaces usando "implements"
+
+        CLASE:      implements INTERFACE/s
+        CLASE:      extends CLASE
+        INTERFACE   extends INTERFACE/s
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -937,8 +946,8 @@ USO DE INTERFACES
 3   Uso e implementación de interfaces y sus        CLASESOTA, que es una interfaz, una interfaz no puede instanciar, una interfaz no puede tener métodos privados o protected, si no ponen modificador de acceso no quiere decir
     reglas de sintaxis                              que sea default, la interfaz solo puede tener constantes, las constantes no pueden ser privadas o protected, etc.
 4   Diferencia entre clases abstractas e interfaces Clase donde muestra las diferencias, en si, son 5, una puede tener constantes y variables y la otra no, una puede tener constructores y la otra no, 
-                                                    una puede tener metodos abstractos y no abstractos y la otra solo abstractos, uno puede tener bloques anonimos y el otro no
-5   Diferenciar entre el uso de las palabras 
+                                                    una puede tener metodos abstractos y no abstractos y la otra solo abstractos, uno puede tener bloques anonimos y el otro no.
+5   Diferenciar entre el uso de las palabras        Muy buena clase, aprendi que las interfaces heredan de otras interfaces con EXTENDS y que las interfaces no pueden heredar de las clases ni implementar
     reservadas implements y extends 
     entre clases e interfaces
 6   Polimorfismo con interfaces

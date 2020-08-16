@@ -62,6 +62,11 @@ SOBREESCRITURA
 CAST HERENCIA
 - Si castean de padre a hijo(por ejemplo: Hijo hijo = (Hijo)padre) manda un error de                                                                EJECUCIÓN
 
+
+INTERFACE
+- Una interface no puede utilizar la palabra implements (ni con más interfaces), si no manda error de                                               COMPILACIÓN
+- Una interface no puede heredar/usar la palabra extends con una clase, si no manda error de                                                        COMPILACIÓN
+
 ======================== ACTUALIZACIONES ========================
 JAVA 7
 
@@ -75,5 +80,5 @@ JAVA 8
 - A partir de Java 8 se integran las clases LocalDate, LocalTime, LocalDateTime, Period y DateTimeFormatter que permite un mejor
   manejo de las fechas, ya no mas DATE y CALENDAR
 
-- Las interfaces a partir de Java 8 pueden tener métodos implementados (no solo definidos)
+- Las interfaces a partir de Java 8 pueden tener métodos implementados (no solo definidos), el modificador default o static hacen la mágia
 
