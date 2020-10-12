@@ -736,6 +736,17 @@ ES UN
 
     - La palabra implements se puede interpretar en clases como "ES UN".. por ejemplo, Pajaro ES UN Animal o Roberto ES UN Humano
 
+
+EXCEPCIONES (IMAGEN 2)
+
+    - La clase padre de las excepciones es "THROWABLE"
+    - Hay dos clases que heredan de THROWABLE:
+        ~ ERROR -   Para errores no controlados como que se acabe la memoria
+        ~ EXCEPTION -   Para errores controlados (menos RuntimeException)
+    - Hay de dos tipos:
+        ~ CONTROLADAS (CHECKED): Las que heredan de Exception (menos RuntimeException)
+        ~ NO CONTROLADAS (UNCHECKED): Runtime y Error
+
 ============= RECORDAR =============
 
 - Objeto == Instancia
@@ -960,3 +971,12 @@ USO DE INTERFACES
 8   Detectar ambiguedad con el uso de constantes 
     y métodos default cuando implementamos 
     múltiples interfaces
+
+
+MANEJO DE EXCEPCIONES
+
+1   Definiendo excepciones                          Nos enseñan las excepciones controladas y no controladas, todas las excepciones heredan de THROWABLE de ahi heredan ERROR (No controladas) y EXCEPTION (Controladas)
+2   Uso de try, catch y finally, throw y throws
+3   Diferencia entre excepciones controladas y 
+    no controladas
+4   Definición de excepciones personalizadas
